@@ -1,24 +1,37 @@
 package hotelapp;
 
 public class Hotel {
-    private String nume;
-     public  void setNume(String nume){
-         this.nume=nume;
-     }
+    private int rating;
+    private final int hotelCapacity;
+    private String hotelName;
+    private Adress theAdress;
+    private Room theRoom;
 
-    private  int rating;
-
-    public void setRating(int rating) {
+    public Hotel(int rating, int hotelCapacity, String hotelName, Adress theAdress, Room theRoom) {
         this.rating = rating;
-    }
-    private  final int capacity;
-
-    public  Hotel(String nume, int rating, int capacity){
-        this.nume=nume;
-        this.rating=rating;
-        this.capacity=capacity;
-
+        this.hotelCapacity = hotelCapacity;
+        this.hotelName = hotelName;
+        this.theAdress = theAdress;
+        this.theRoom = theRoom;
     }
 
+    public int getRating() {
+        return rating;
+    }
 
+    public int getHotelCapacity() {
+        return hotelCapacity;
+    }
+
+    public String getHotelName() {
+        return hotelName;
+    }
+
+    public Adress getTheAdress() {
+        return theAdress;
+    }
+
+    public Room getTheRoom() {
+        return theRoom;
+    }
 }
