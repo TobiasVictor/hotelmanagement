@@ -2,15 +2,24 @@ package person;
 
 public class Client extends Human {
 
-    public Client(String firstName, String lastName, int age, int clientCode, int entryDate, int exitDate) {
+    private int clientCode;
+    private String entryDate;
+    private String exitDate;
+
+
+    public Client(String firstName, String lastName, int age, int clientCode, String entryDate, String exitDate) {
         super(firstName, lastName, age);
-        this.clientCode=clientCode;
-        this.entryDate=entryDate;
-        this.exitDate=exitDate;
+        this.clientCode = clientCode;
+        this.entryDate = entryDate;
+        this.exitDate = exitDate;
 
     }
-    private int clientCode;
-    private int entryDate;
-    private int exitDate;
+
+    public Client() {
+        clientCode = 112;
+        entryDate = "12.01.2019";
+        exitDate = "15.01.2019";
+    }
+
 
 }
