@@ -14,13 +14,12 @@ public class Room {
 
 
     }
-
-
-    public Room() {
-        roomNumber = 13;
-        roomCapacity = 4;
-        roomOrientation = "Est";
+    public Room(int roomNumber, String roomOrientation) {
+        this.roomNumber = roomNumber;
+        this.roomOrientation = roomOrientation;
     }
+
+
 
     public Room(int roomNumber, int roomCapacity, String roomOrientation) {
         this.roomNumber = roomNumber;

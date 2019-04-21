@@ -15,11 +15,7 @@ public class Client extends Human {
 
     }
 
-    public Client() {
-        clientCode = 112;
-        entryDate = "12.01.2019";
-        exitDate = "15.01.2019";
-    }
+
 
 
 }

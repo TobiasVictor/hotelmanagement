@@ -17,11 +17,11 @@ c
 3src/main/java/hotelspecialrooms/ConferenceRoom.java,2\d\2de4f8448175f1497ba088922b8aacd70b2c616a
 ]
 -src/main/java/hotelspecialrooms/GameRoom.java,5\2\52c6c5baaa0206389a9dadaf14c52787a677cc54
-[
-+src/main/java/hotelspecialrooms/Irooms.java,a\1\a10388ca9e348d7cd019b892d9c6c1520561b834
 Y
 )src/main/java/hotelspecialrooms/Pool.java,c\c\cce393c113885db506b5d82cddcec127e81bc062
 M
 src/main/java/hotel/Room.java,6\b\6b0c49b7be8729161fb296f6e4b0332eac90bc05
 G
 src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
+b
+2src/main/java/hotelspecialrooms/RoomInterface.java,5\6\56ab436903129179ced99082f3e450f22d67a235

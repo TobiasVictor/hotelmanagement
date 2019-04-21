@@ -3,19 +3,17 @@ import hotel.Hotel;
 import hotel.Room;
 import hotelspecialrooms.ConferenceRoom;
 import hotelspecialrooms.GameRoom;
-import hotelspecialrooms.Irooms;
+import hotelspecialrooms.RoomInterface;
 import hotelspecialrooms.Pool;
-import person.Client;
 import person.Employee;
-
-import java.util.List;
-import java.util.ArrayList;
 
 
 public class Main {
 
 
     public static void main(String[] args) {
+
+
         Address address = new Address("Mehedinti", 176, "Cluj-Napoca");
 
         Room room = new Room(59, 2, "Vest");
@@ -24,9 +22,9 @@ public class Main {
         System.out.println(hotel);
 
         Room pentHouse = new Room(34, 7, "Est");
-        Room ordinaryRoom = new Room();
+        Room ordinaryRoom = new Room(35,"Est");
         Room luxuryRoom = new Room(66, 2, "North");
-        Room ordinaryRoom2 = new Room();
+        Room ordinaryRoom2 = new Room(10,"Vest");
         Room[] rooms = new Room[5];
 
         rooms[0] = room;
@@ -46,29 +44,22 @@ public class Main {
         rooms[3].roomPresentation();
 
 
-        Irooms game = new GameRoom();
+        RoomInterface game = new GameRoom();
 
-        game.openingTime();                           // we create object game to call our methods from GameRoom
 
-        game.numberOfWorkersForThisRoom(7);           // this methods are implemented from interface Irooms which contains methods that returns info about our rooms classes
 
-        game.numberOfreservations(9);
+        RoomInterface conference = new ConferenceRoom();
 
-        Irooms conference = new ConferenceRoom();
 
-        conference.openingTime();
 
-        conference.numberOfWorkersForThisRoom(5);
 
-        conference.numberOfreservations(14);
-
-        Irooms pool = new Pool();
+/*        RoomInterface pool = new Pool();
 
         pool.openingTime();
 
         pool.numberOfWorkersForThisRoom(3);
 
-        pool.numberOfreservations(2);
+        pool.numberOfReservations(2);
         //default constructor
         Employee empobj = new Employee();
         System.out.println("Employee  first name is : " + empobj.getFirstName());
@@ -122,8 +113,8 @@ public class Main {
 
         // Showing our constant
 
-        System.out.println("capacitatea hotelului este de : " + hotel.HOTELCAPACITY);
-
+        System.out.println("capacitatea hotelului este de : " + hotel.HOTEL_CAPACITY);
+*/
 
     }
 }

@@ -2,7 +2,7 @@ package hotel;
 
 public class Hotel {
     private int rating;
-    public static final int HOTELCAPACITY = 200;
+    public static final int HOTEL_CAPACITY = 200;
     private String name;
     private Address address;
     private Room room;
@@ -17,7 +17,7 @@ public class Hotel {
 
     @Override
     public String toString() {
-        return "hotel name : " + name + " , rating : " + rating + " " + " , hotel capacity " + HOTELCAPACITY + " , room of hotel:  " + room + " , adress of hotel : " + address;
+        return "hotel name : " + name + " , rating : " + rating + " " + " , hotel capacity " + HOTEL_CAPACITY + " , room of hotel:  " + room + " , adress of hotel : " + address;
     }
 
 }

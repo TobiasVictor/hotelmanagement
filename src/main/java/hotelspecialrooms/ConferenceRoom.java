@@ -1,17 +1,26 @@
+
 package hotelspecialrooms;
 
-public class ConferenceRoom implements Irooms{
+public class ConferenceRoom implements RoomInterface {
     @Override
-    public void openingTime() {
-        System.out.println("Camera de conferinta se deschide doar la rezervari ");
+    public String openingTime(int dayNumber) {
+        if(dayNumber==1)
+            return "Sedinta are loc de la 8 AM la 9 AM";
+        else
+            return "Programul depinde de rezervare";
     }
 
-    public void numberOfWorkersForThisRoom(int workers) {
-        System.out.println("Numarul de angajati alocat pentru camera de conferinte este de " + workers);
+    @Override
+    public int numberOfWorkersForThisRoom() {
+        return 0;
     }
 
-    public void numberOfreservations(int reservations) {
-        System.out.println("In urmatoarea luna avem un numar de "+ reservations+ "rezervari");
-
+    @Override
+    public int numberOfReservations() {
+        return 0;
     }
+
+
+
+
 }

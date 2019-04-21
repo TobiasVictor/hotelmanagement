@@ -1,22 +1,41 @@
 package hotelspecialrooms;
 
-public class Pool implements Irooms {
+public class Pool implements RoomInterface, InterfaceForPoolAndGameRoom {
+
+
+
     @Override
-    public void openingTime() {
-        System.out.println("Piscina se deschide in fiecare zi a saptamanii de la ora 7 AM pana la 10 PM");
+    public String openingTime(int dayNumber) {
+        return null;
+    }
+
+    @Override
+    public int numberOfWorkersForThisRoom() {
+        return 0;
+    }
+
+    @Override
+    public int numberOfReservations() {
+        return 0;
+    }
+
+
+    @Override
+    public String ageRestrict(int validAge) {
+        if(validAge>=10){
+            return "Permis";
+        }
+        else
+            return "Respins";
+
+
 
     }
 
     @Override
-    public void numberOfWorkersForThisRoom(int workers) {
-        System.out.println("Numarul de angajati alocat pentru piscina este de " + workers);
-
-
+    public String workersRestTime(int dayNumber) {
+        return null;
     }
 
-    @Override
-    public void numberOfreservations(int reservations) {
-        System.out.println("Numarul de rezervari pentru piscina a fost de : " + reservations + " rezervari");
 
-    }
 }

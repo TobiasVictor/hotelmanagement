@@ -1,4 +1,4 @@
 
-Hsquid:S1068"*Remove this unused "salary" private field.(×„ë‡8â¼òÇ¡-
-Psquid:S1068	"-Remove this unused "education" private field.( ä”ıÿÿÿÿ8â¼òÇ¡-
-Ksquid:S1068"-Remove this unused "ownWealth" private field.(šÏ8á¼òÇ¡-
+Nsquid:S1068"-Remove this unused "education" private field.( ä”ıÿÿÿÿ8â¼òÇ¡-
+Isquid:S1068"-Remove this unused "ownWealth" private field.(šÏ8á¼òÇ¡-
+Fsquid:S1068"*Remove this unused "salary" private field.(×„ë‡8â¼òÇ¡-

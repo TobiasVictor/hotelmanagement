@@ -27,11 +27,6 @@ public class Employee extends Human {
 
     }
 
-    public Employee() {
-        jobId = 345;
-        jobPosition = "receptionist";
-        employeeSalary = 800;
-    }
 
     private int employeeSalary;
     private int jobId;
