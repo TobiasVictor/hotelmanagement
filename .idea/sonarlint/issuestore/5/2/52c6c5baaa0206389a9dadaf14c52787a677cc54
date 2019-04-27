@@ -1,9 +1,4 @@
 
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ë¡Õ8‰İìÇ¡-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ãñßùÿÿÿÿ8‰İìÇ¡-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÒĞ Ò8‰İìÇ¡-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(÷’—·8‰İìÇ¡-
+ysquid:S1450"VRemove the "message" field and declare it as a local variable in the relevant methods.(ù„è¿ûÿÿÿÿ8„ª½ö¥-
+usquid:S1450"WRemove the "validAge" field and declare it as a local variable in the relevant methods.(Û¶¯ƒ8„ª½ö¥-
+Jsquid:S1068",Remove this unused "validAge" private field.(Û¶¯ƒ8„ª½ö¥-

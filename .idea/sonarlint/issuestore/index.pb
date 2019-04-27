@@ -25,3 +25,13 @@ G
 src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
 b
 2src/main/java/hotelspecialrooms/RoomInterface.java,5\6\56ab436903129179ced99082f3e450f22d67a235
+p
+@src/main/java/hotelspecialrooms/InterfaceForPoolAndGameRoom.java,7\7\7781a2b4bac8b80c88d239a8e1c3ccf17d364806
+W
+'src/main/java/hotel/HotelInterface.java,9\1\91a0ef068a88b7ceec4177a14379f8d7089bf5de
+U
+%src/main/java/hotel/HotelService.java,9\5\95d35fd40f36a2bf3d5a449b82b70df17f7be2b3
+X
+(src/main/java/hotel/HotelRepository.java,8\3\83f4addbdcd359ac33437c5864fc91c6695f0af4
+R
+"src/main/java/hotel/MainClass.java,7\c\7cf12b53d0eed635c70cf77164a7f21157456d2e

@@ -1,11 +1,20 @@
 package hotel;
 
 public class Hotel {
+    public int getRating() {
+        return rating;
+    }
+
     private int rating;
     public static final int HOTEL_CAPACITY = 200;
     private String name;
     private Address address;
     private Room room;
+
+    public String getName() {
+        return name;
+    }
+
 
     public Hotel(int rating, String name, Address address, Room room) {
         this.rating = rating;

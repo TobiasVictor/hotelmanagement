@@ -5,13 +5,19 @@ import hotelspecialrooms.ConferenceRoom;
 import hotelspecialrooms.GameRoom;
 import hotelspecialrooms.RoomInterface;
 import hotelspecialrooms.Pool;
+import org.apache.log4j.Logger;
 import person.Employee;
-
+import java.io.*;
+import java.util.List;
 
 public class Main {
 
+    private static Logger logger = Logger.getLogger("Main");
 
     public static void main(String[] args) {
+
+
+        logger.info("start main");
 
 
         Address address = new Address("Mehedinti", 176, "Cluj-Napoca");
@@ -22,9 +28,9 @@ public class Main {
         System.out.println(hotel);
 
         Room pentHouse = new Room(34, 7, "Est");
-        Room ordinaryRoom = new Room(35,"Est");
+        Room ordinaryRoom = new Room(35, "Est");
         Room luxuryRoom = new Room(66, 2, "North");
-        Room ordinaryRoom2 = new Room(10,"Vest");
+        Room ordinaryRoom2 = new Room(10, "Vest");
         Room[] rooms = new Room[5];
 
         rooms[0] = room;
@@ -47,14 +53,9 @@ public class Main {
         RoomInterface game = new GameRoom();
 
 
-
         RoomInterface conference = new ConferenceRoom();
-
-
-
-
-/*        RoomInterface pool = new Pool();
-
+        RoomInterface pool = new Pool();
+/*
         pool.openingTime();
 
         pool.numberOfWorkersForThisRoom(3);
@@ -114,10 +115,11 @@ public class Main {
         // Showing our constant
 
         System.out.println("capacitatea hotelului este de : " + hotel.HOTEL_CAPACITY);
-*/
+
 
     }
 }
 
-
-
+*/
+    }
+}
