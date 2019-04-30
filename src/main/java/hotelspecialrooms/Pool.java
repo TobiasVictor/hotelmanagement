@@ -1,6 +1,6 @@
 package hotelspecialrooms;
 
-public class Pool implements RoomInterface, InterfaceForPoolAndGameRoom {
+public class Pool implements SpecialRoomInterface, InterfaceForPoolAndGameRoom {
 
 
 

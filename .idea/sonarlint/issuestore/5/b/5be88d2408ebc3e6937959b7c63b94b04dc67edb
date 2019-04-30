@@ -1,0 +1,4 @@
+
+Csquid:S1068",Remove this unused "validAge" private field.(Û¶¯ƒ
+nsquid:S1450"WRemove the "validAge" field and declare it as a local variable in the relevant methods.(Û¶¯ƒ
+rsquid:S1450"VRemove the "message" field and declare it as a local variable in the relevant methods.(ù„è¿ûÿÿÿÿ

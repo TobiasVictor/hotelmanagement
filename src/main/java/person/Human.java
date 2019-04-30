@@ -5,6 +5,17 @@ public class Human {
     private String lastName;
     private int age;
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
 
 
     public Human(String firstName, String lastName, int age) {
@@ -13,8 +24,9 @@ public class Human {
         this.age = age;
 
     }
-    protected void display(){
-        System.out.println(firstName + " " + lastName + "  " + age );
+
+    protected void display() {
+        System.out.println(firstName + " " + lastName + "  " + age);
     }
 
 

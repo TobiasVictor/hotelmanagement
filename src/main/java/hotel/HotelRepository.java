@@ -3,8 +3,9 @@ package hotel;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HotelRepository implements HotelInterface{
+public class HotelRepository implements HotelInterface {
     private List<Hotel> hotels = new ArrayList<>();
+
     @Override
     public boolean add(Hotel hotel) {
         hotels.add(hotel);

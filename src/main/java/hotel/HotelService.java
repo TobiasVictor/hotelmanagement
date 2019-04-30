@@ -11,11 +11,11 @@ public class HotelService {
 
     }
 
-    public String validateAndAdd(Hotel hotel) {
+    public String validateAndAddHotel(Hotel hotel) {
         String name = hotel.getName();
         int rating = hotel.getRating();
         if (name.equals("")) {
-            return "Enter the hotel name again";    //how can i validateAndAdd hotel and address in the same time? ( adress is created via composition)
+            return "Enter the hotel name again";
         }
         if (rating == 0) {
             return "Enter the rating  again";
@@ -30,11 +30,12 @@ public class HotelService {
 
     }
 
-    public void validateAndDelete(Hotel hotel) {
-        hotelRepository.remove(hotel); // how can i check the size of my list in this function?
+    public void validateAndDeleteHotel(Hotel hotel) {
+        hotelRepository.remove(hotel);
 
     }
-    public List<Hotel> getHotels(){
+
+    public List<Hotel> getHotels() {
         return hotelRepository.listHotels();
     }
 }

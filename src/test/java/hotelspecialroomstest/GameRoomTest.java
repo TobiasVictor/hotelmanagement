@@ -1,212 +1,227 @@
 package hotelspecialroomstest;
-import hotelspecialrooms.GameRoom;
+
+import hotelspecialrooms.GameSpecialRoom;
 import org.junit.Before;
 import org.junit.Test;
-import static  org.junit.Assert.assertEquals;
+
+import static org.junit.Assert.assertEquals;
+
 public class GameRoomTest {
-    private GameRoom gRoom;
+    private GameSpecialRoom gRoom;
+
     @Before
-    public void setup(){
-        gRoom= new GameRoom();
+    public void setup() {
+        gRoom = new GameSpecialRoom();
     }
+
     @Test
-    public void should_ReturnInfoForMonday(){
+    public void should_ReturnInfoForMonday() {
         //GIVEN
-        int numberOfDay=1;
+        int numberOfDay = 1;
         //WHEN
         String response1 = gRoom.openingTime(numberOfDay);
         //THEN
-        assertEquals("Camera de jocuri este deschisa luni de la 6 PM pana la 8 AM",response1);
+        assertEquals("Camera de jocuri este deschisa luni de la 6 PM pana la 8 AM", response1);
     }
+
     @Test
-    public void should_ReturnInfoForTuesday(){
+    public void should_ReturnInfoForTuesday() {
         //GIVEN
-        int numberOfDay=2;
+        int numberOfDay = 2;
         //WHEN
         String response1 = gRoom.openingTime(numberOfDay);
         //THEN
-        assertEquals("Camera de jocuri este deschisa marti de la 6 PM pana la 8 AM",response1);
+        assertEquals("Camera de jocuri este deschisa marti de la 6 PM pana la 8 AM", response1);
     }
+
     @Test
-    public void should_ReturnInfoForWednesday(){
+    public void should_ReturnInfoForWednesday() {
         //GIVEN
-        int numberOfDay=3;
+        int numberOfDay = 3;
         //WHEN
         String response1 = gRoom.openingTime(numberOfDay);
         //THEN
-        assertEquals("Camera de jocuri este deschisa miercuri de la 6 PM pana la 8 AM",response1);
+        assertEquals("Camera de jocuri este deschisa miercuri de la 6 PM pana la 8 AM", response1);
     }
+
     @Test
-    public void should_ReturnInfoForThursday(){
+    public void should_ReturnInfoForThursday() {
         //GIVEN
-        int numberOfDay=4;
+        int numberOfDay = 4;
         //WHEN
         String response1 = gRoom.openingTime(numberOfDay);
         //THEN
-        assertEquals("Camera de jocuri este deschisa joi de la 6 PM pana la 8 AM",response1);
+        assertEquals("Camera de jocuri este deschisa joi de la 6 PM pana la 8 AM", response1);
     }
+
     @Test
-    public void should_ReturnInfoForFriday(){
+    public void should_ReturnInfoForFriday() {
         //GIVEN
-        int numberOfDay=5;
+        int numberOfDay = 5;
         //WHEN
         String response1 = gRoom.openingTime(numberOfDay);
         //THEN
-        assertEquals("Camera de jocuri este deschisa vineri de la 6 PM pana la 8 AM",response1);
+        assertEquals("Camera de jocuri este deschisa vineri de la 6 PM pana la 8 AM", response1);
     }
+
     @Test
-    public void should_ReturnInfoForWeekend(){
+    public void should_ReturnInfoForWeekend() {
         //GIVEN
-        int numberOfDay=10;
+        int numberOfDay = 10;
         //WHEN
         String response1 = gRoom.openingTime(numberOfDay);
         //THEN
-        assertEquals("Camera de jocuri este inchisa ",response1);
+        assertEquals("Camera de jocuri este inchisa ", response1);
     }
 
 
-
-
     @Test
-    public void should_LetKidsWith12OrMoreYearsIn(){
+    public void should_LetKidsWith12OrMoreYearsIn() {
         //GIVEN
-        int number=13;
+        int number = 13;
 
         //WHEN
-        String response2 =  gRoom.ageRestrict(number);
+        String response2 = gRoom.ageRestrict(number);
 
         //THEN
-        assertEquals("Admis",response2);
+        assertEquals("Admis", response2);
 
 
     }
+
     @Test
-    public void should_not_LetKidsWithLessThan12Years(){
+    public void should_not_LetKidsWithLessThan12Years() {
         //GIVEN
-        int number=9;
+        int number = 9;
 
         //WHEN
-        String response =  gRoom.ageRestrict(number);
+        String response = gRoom.ageRestrict(number);
 
         //THEN
-        assertEquals("Respins",response);
+        assertEquals("Respins", response);
 
 
     }
-    @Test
-    public void should_ShowLunchBreakForMonday(){
-        //GIVEN
-        int number=1;
-        //WHEN
-        String response = gRoom.workersRestTime(number);
-        //THEN
-        assertEquals("Luni pauza de masa are loc de la 4 PM la 5 PM",response);
 
-
-    }
     @Test
-    public void should_ShowLunchBreakForTuesday(){
+    public void should_ShowLunchBreakForMonday() {
         //GIVEN
-        int number=2;
+        int number = 1;
         //WHEN
         String response = gRoom.workersRestTime(number);
         //THEN
-        assertEquals("Marti pauza de masa are loc de la 4 PM la 5 PM",response);
+        assertEquals("Luni pauza de masa are loc de la 4 PM la 5 PM", response);
 
 
     }
+
     @Test
-    public void should_ShowLunchBreakForWednesday(){
+    public void should_ShowLunchBreakForTuesday() {
         //GIVEN
-        int number=3;
+        int number = 2;
         //WHEN
         String response = gRoom.workersRestTime(number);
         //THEN
-        assertEquals("Miercuri pauza de masa are loc de la 9 PM la 10 PM",response);
+        assertEquals("Marti pauza de masa are loc de la 4 PM la 5 PM", response);
 
 
     }
+
     @Test
-    public void should_ShowLunchBreakForTueday(){
+    public void should_ShowLunchBreakForWednesday() {
         //GIVEN
-        int number=4;
+        int number = 3;
         //WHEN
         String response = gRoom.workersRestTime(number);
         //THEN
-        assertEquals("Joi pauza de masa are loc de la 7 PM la 8 PM",response);
+        assertEquals("Miercuri pauza de masa are loc de la 9 PM la 10 PM", response);
 
 
     }
+
     @Test
-    public void should_ShowLunchBreakForFriday(){
+    public void should_ShowLunchBreakForTueday() {
         //GIVEN
-        int number=5;
+        int number = 4;
         //WHEN
         String response = gRoom.workersRestTime(number);
         //THEN
-        assertEquals("Vineri pauza de masa are loc de la 2 PM la 3 PM",response);
+        assertEquals("Joi pauza de masa are loc de la 7 PM la 8 PM", response);
 
 
     }
+
     @Test
-    public void should_ShowLunchBreakForSomeOtherDay(){
+    public void should_ShowLunchBreakForFriday() {
         //GIVEN
-        int number=9;
+        int number = 5;
         //WHEN
         String response = gRoom.workersRestTime(number);
         //THEN
-        assertEquals("Mai si munciti, ce tot atatea pauze de masa? ",response);
+        assertEquals("Vineri pauza de masa are loc de la 2 PM la 3 PM", response);
 
 
     }
+
     @Test
-    public void should_ShowNumberofEmployees(){
+    public void should_ShowLunchBreakForSomeOtherDay() {
         //GIVEN
-        int number=10;
+        int number = 9;
         //WHEN
-        int response= gRoom.numberOfWorkersForThisRoom();
+        String response = gRoom.workersRestTime(number);
         //THEN
-        assertEquals(10,response);
+        assertEquals("Mai si munciti, ce tot atatea pauze de masa? ", response);
 
 
     }
+
     @Test
-    public void should_ShowNumberofEmployees1(){
+    public void should_ShowNumberofEmployees() {
         //GIVEN
-        int number=9;
+        int number = 10;
         //WHEN
-        int response= gRoom.numberOfWorkersForThisRoom();
+        int response = gRoom.numberOfWorkersForThisRoom();
         //THEN
-        assertEquals(9,response);
+        assertEquals(10, response);
 
 
     }
+
     @Test
-    public void should_ShowNumberofReservations(){
+    public void should_ShowNumberofEmployees1() {
         //GIVEN
-        int number=5;
+        int number = 9;
         //WHEN
-        int response= gRoom.numberOfReservations();
+        int response = gRoom.numberOfWorkersForThisRoom();
         //THEN
-        assertEquals(5,response);
+        assertEquals(9, response);
 
 
     }
+
     @Test
-    public void should_ShowNumberofReservations1(){
+    public void should_ShowNumberofReservations() {
         //GIVEN
-        int number=7;
+        int number = 5;
         //WHEN
-        int response= gRoom.numberOfReservations();
+        int response = gRoom.numberOfReservations();
         //THEN
-        assertEquals(7,response);
+        assertEquals(5, response);
 
 
     }
 
+    @Test
+    public void should_ShowNumberofReservations1() {
+        //GIVEN
+        int number = 7;
+        //WHEN
+        int response = gRoom.numberOfReservations();
+        //THEN
+        assertEquals(7, response);
 
 
-
+    }
 
 
 }

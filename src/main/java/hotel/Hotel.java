@@ -1,5 +1,9 @@
 package hotel;
 
+import enums_hotel.HotelOpenTime;
+import enums_hotel.HotelType;
+import room.Room;
+
 public class Hotel {
     public int getRating() {
         return rating;
@@ -10,17 +14,21 @@ public class Hotel {
     private String name;
     private Address address;
     private Room room;
+    private HotelType hotelType;
+    private HotelOpenTime hotelOpenTime;
 
     public String getName() {
         return name;
     }
 
 
-    public Hotel(int rating, String name, Address address, Room room) {
+    public Hotel(int rating, String name, Address address, Room room, HotelType hotelType, HotelOpenTime hotelOpenTime) {
         this.rating = rating;
         this.name = name;
         this.address = address;
         this.room = room;
+        this.hotelType = hotelType;
+        this.hotelOpenTime = hotelOpenTime;
     }
 
 
