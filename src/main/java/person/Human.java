@@ -1,6 +1,9 @@
 package person;
 
+import org.apache.log4j.Logger;
+
 public class Human {
+   private final  Logger log = Logger.getLogger(Human.class);
     private String firstName;
     private String lastName;
     private int age;
@@ -26,7 +29,7 @@ public class Human {
     }
 
     protected void display() {
-        System.out.println(firstName + " " + lastName + "  " + age);
+        log.debug(firstName + " " + lastName + "  " + age);
     }
 
 

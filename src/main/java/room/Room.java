@@ -27,7 +27,7 @@ public class Room {
 
 
     }
-
+    @Deprecated
     public Room(int roomNumber, String roomOrientation) {
         this.roomNumber = roomNumber;
         this.roomOrientation = roomOrientation;

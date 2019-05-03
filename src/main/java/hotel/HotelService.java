@@ -11,14 +11,14 @@ public class HotelService {
 
     }
 
-    public String validateAndAddHotel(Hotel hotel) {
+    public String validateAndAddHotel(Hotel hotel) throws IllegalAccessException {
         String name = hotel.getName();
         int rating = hotel.getRating();
         if (name.equals("")) {
-            return "Enter the hotel name again";
+            throw new IllegalAccessException("Enter the hotel name again");
         }
         if (rating == 0) {
-            return "Enter the rating  again";
+            throw new IllegalAccessException( "Enter the rating  again");
         }
 
         boolean responseFromRepo = hotelRepository.add(hotel);

@@ -2,29 +2,13 @@
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 O
-src/main/java/person/Owner.java,c\2\c293aab75b8fa6f35587c649182448e83ec3f45a
-R
-"src/main/java/person/Employee.java,7\5\75b2ddd13b57ced62cf7c5b6917e7d6c88d67109
-P
- src/main/java/person/Client.java,7\6\76b7bf48f93eefecd7a06a2ca121ca025395470d
-O
 src/main/java/person/Human.java,c\f\cf7ebba49bb2b719f15fada5c5ab28ab219cd7d8
 P
  src/main/java/hotel/Address.java,2\8\28d101f3daa60c9dc6bd2db5570e26bd4109bbac
 N
 src/main/java/hotel/Hotel.java,e\2\e2570138394024c0463b03ad1eca222fe7dec5a7
-c
-3src/main/java/hotelspecialrooms/ConferenceRoom.java,2\d\2de4f8448175f1497ba088922b8aacd70b2c616a
-]
--src/main/java/hotelspecialrooms/GameRoom.java,5\2\52c6c5baaa0206389a9dadaf14c52787a677cc54
 Y
 )src/main/java/hotelspecialrooms/Pool.java,c\c\cce393c113885db506b5d82cddcec127e81bc062
-M
-src/main/java/hotel/Room.java,6\b\6b0c49b7be8729161fb296f6e4b0332eac90bc05
-G
-src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
-b
-2src/main/java/hotelspecialrooms/RoomInterface.java,5\6\56ab436903129179ced99082f3e450f22d67a235
 p
 @src/main/java/hotelspecialrooms/InterfaceForPoolAndGameRoom.java,7\7\7781a2b4bac8b80c88d239a8e1c3ccf17d364806
 W
@@ -33,8 +17,6 @@ U
 %src/main/java/hotel/HotelService.java,9\5\95d35fd40f36a2bf3d5a449b82b70df17f7be2b3
 X
 (src/main/java/hotel/HotelRepository.java,8\3\83f4addbdcd359ac33437c5864fc91c6695f0af4
-R
-"src/main/java/hotel/MainClass.java,7\c\7cf12b53d0eed635c70cf77164a7f21157456d2e
 P
  src/main/java/client/Client.java,c\5\c5c2abc05e75daf87e5d896f0c1528ea106af1a0
 Y
@@ -85,3 +67,9 @@ e
 5src/test/java/hotelspecialroomstest/GameRoomTest.java,f\8\f804e6d2643d183ffe45f6a1405f82a2b59dcb6a
 a
 1src/test/java/hotelspecialroomstest/PoolTest.java,a\9\a95a2e4b5affa10d53c8da02d4bd6b03033457dc
+`
+0src/test/java/hoteltest/HotelRepositoryTest.java,4\d\4d0b8d6de8b608277dc59bc36dfd749721d4148d
+]
+-src/test/java/hoteltest/HotelServiceTest.java,e\2\e23023a98d0743cb953894511bb272af29fe533a
+8
+test.txt,4\b\4b6fcb2d521ef0fd442a5301e7932d16cc9f375a

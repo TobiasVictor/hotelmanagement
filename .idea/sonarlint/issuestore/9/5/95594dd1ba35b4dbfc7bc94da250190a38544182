@@ -1,16 +1,7 @@
 
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(´í§ıÿÿÿÿ8—‰µú¥-
-V
-squid:S106("9Replace this use of System.out or System.err by a logger.(¤·à8²¦ş€§-
-V
-squid:S106""9Replace this use of System.out or System.err by a logger.(¨‘‚Ğ8ÅÔé€§-
 8squid:S1220""Move this file to a named package.8¦ª×ï¦-
-[
-squid:S106*"9Replace this use of System.out or System.err by a logger.(«õò€ûÿÿÿÿ8˜À†§-
-[
-squid:S106)"9Replace this use of System.out or System.err by a logger.(–Ğ×§ÿÿÿÿÿ8æ€§-
-V
-squid:S106+"9Replace this use of System.out or System.err by a logger.(šñ¡ş8êĞˆ§-
-V
-squid:S106$"9Replace this use of System.out or System.err by a logger.(ÎœáÏ8…“í€§-
+Nsquid:S1481 "+Remove this unused "second" local variable.(ù£à®şÿÿÿÿ8å÷šÎ§-
+`squid:CallToDeprecatedMethod ",Remove this use of "Room"; it is deprecated.(ù£à®şÿÿÿÿ8å÷šÎ§-
+]squid:S1854 ":Remove this useless assignment to local variable "second".(ù£à®şÿÿÿÿ8å÷šÎ§-
+±%squid:RedundantThrowsDeclarationCheck"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(Ú „›8¾ù¼ù§-
+Msquid:S00108")Either remove or fill this block of code.(¡»¢üùÿÿÿÿ8ÍÅÄù§-
