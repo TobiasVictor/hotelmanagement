@@ -1,3 +1,3 @@
 
-Tsquid:S1068"1Remove this unused "hotelOpenTime" private field.(Ί™ω­όÿÿÿÿ8ÿή€§-
-Psquid:S1068"-Remove this unused "hotelType" private field.(Ν‘ά‹ώÿÿÿÿ8ό €§-
+^squid:UselessImportCheck"4Remove this unused import 'org.apache.log4j.Logger'.(ρθ½8 έ™©-
+fsquid:UselessImportCheck"6Remove this unused import 'lombok.AllArgsConstructor'.(΄Ύφωÿÿÿÿ8 ώύ™©-

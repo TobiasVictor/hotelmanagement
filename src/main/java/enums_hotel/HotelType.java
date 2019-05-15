@@ -2,7 +2,7 @@ package enums_hotel;
 
 public enum HotelType {
 
-    PITORESC,
+    PICTURESQUE,
     LUXURY,
     HOSTEL;
 }

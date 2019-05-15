@@ -2,13 +2,15 @@ package hotel;
 
 import enums_hotel.HotelOpenTime;
 import enums_hotel.HotelType;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 import org.apache.log4j.Logger;
 import room.Room;
+@Getter
+@Setter
 
 public class Hotel {
-    public int getRating() {
-        return rating;
-    }
 
     private int rating;
     public static final int HOTEL_CAPACITY = 200;
@@ -18,9 +20,6 @@ public class Hotel {
     private HotelType hotelType;
     private HotelOpenTime hotelOpenTime;
 
-    public String getName() {
-        return name;
-    }
 
     public Hotel(int rating, String name, Address address, Room room, HotelType hotelType, HotelOpenTime hotelOpenTime) {
         this.rating = rating;

@@ -14,9 +14,6 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 import room.Room;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
@@ -40,7 +37,7 @@ public class HotelServiceTest {
 
         Address address = new Address("1 dec ",6,"Cluj");
         Room room = new Room(6,3,"Est");
-        Hotel hotel = new Hotel(5,"Tinut",address,room, HotelType.PITORESC, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS);
+        Hotel hotel = new Hotel(5,"Tinut",address,room, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS);
         doReturn(false).when(hotelRepository).add(any(Hotel.class));
 
         //WHEN
@@ -56,7 +53,7 @@ public class HotelServiceTest {
     public void  shouldVerify_HowManyTimeWeUsedAdd(){
     Address address = new Address("1 dec ",6,"Cluj");
     Room room = new Room(6,3,"Est");
-    Hotel hotel = new Hotel(5,"Tinut",address,room, HotelType.PITORESC, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS);
+    Hotel hotel = new Hotel(5,"Tinut",address,room, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS);
         HotelRepository hotelRepository = Mockito.mock(HotelRepository.class);
         HotelService hotelService = new HotelService(hotelRepository);
         verify(hotelRepository,Mockito.times(5)).add(hotel);

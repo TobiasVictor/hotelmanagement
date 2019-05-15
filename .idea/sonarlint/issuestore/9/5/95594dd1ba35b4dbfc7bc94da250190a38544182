@@ -1,7 +1,6 @@
 
+Nsquid:S1481"+Remove this unused "second" local variable.(ù£à®þÿÿÿÿ8å÷šÎ§-
+]squid:S1854":Remove this useless assignment to local variable "second".(ù£à®þÿÿÿÿ8å÷šÎ§-
+\squid:S1854"9Remove this useless assignment to local variable "human".(ÏŠ¹áÿÿÿÿÿ8¦ŠÄ™©-
+Msquid:S1481"*Remove this unused "human" local variable.(ÏŠ¹áÿÿÿÿÿ8¦ŠÄ™©-
 8squid:S1220""Move this file to a named package.8¦ª×ï¦-
-Nsquid:S1481 "+Remove this unused "second" local variable.(ù£à®þÿÿÿÿ8å÷šÎ§-
-`squid:CallToDeprecatedMethod ",Remove this use of "Room"; it is deprecated.(ù£à®þÿÿÿÿ8å÷šÎ§-
-]squid:S1854 ":Remove this useless assignment to local variable "second".(ù£à®þÿÿÿÿ8å÷šÎ§-
-±%squid:RedundantThrowsDeclarationCheck"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(Ú „›8¾ù¼ù§-
-Msquid:S00108")Either remove or fill this block of code.(¡»¢üùÿÿÿÿ8ÍÅÄù§-
