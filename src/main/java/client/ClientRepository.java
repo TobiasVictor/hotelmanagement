@@ -6,6 +6,11 @@ import java.util.List;
 public class ClientRepository implements ClientInterface {
     private List<Client> clients = new ArrayList<>();
 
+    /**
+     *
+     * {@inheritDoc}
+     *
+     */
     @Override
     public boolean add(Client client) {
         clients.add(client);

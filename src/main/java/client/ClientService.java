@@ -9,6 +9,11 @@ public class ClientService {
         this.clientRepository = clientRepository;
     }
 
+    /**
+     *  Validate Client object and add it to the list.
+     * @param client instance
+     * @return value representing a status
+     */
     public String validateAndAddClient(Client client) {
         //validation
         boolean responseFromRepo = clientRepository.add(client);

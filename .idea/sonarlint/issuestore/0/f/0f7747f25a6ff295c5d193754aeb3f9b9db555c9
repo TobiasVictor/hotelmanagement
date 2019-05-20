@@ -1,3 +1,5 @@
 
 N
 squid:S106,"9Replace this use of System.out or System.err by a logger.(Š€õ>
+Xsquid:S1133"5Do not forget to remove this deprecated code someday.(†—Õ”þÿÿÿÿ8¯þ¥¨­-
+\squid:MissingDeprecatedCheck"(Add the missing @deprecated Javadoc tag.(†—Õ”þÿÿÿÿ8¯þ¥¨­-

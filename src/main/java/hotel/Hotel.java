@@ -7,10 +7,13 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.log4j.Logger;
 import room.Room;
+
+import java.io.Serializable;
+
 @Getter
 @Setter
 
-public class Hotel {
+public class Hotel  {
 
     private int rating;
     public static final int HOTEL_CAPACITY = 200;

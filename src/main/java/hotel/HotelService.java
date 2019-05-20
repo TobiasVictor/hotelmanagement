@@ -11,15 +11,24 @@ public class HotelService {
 
     }
 
+    /**
+     * Validate Hotel object and add it to the list.
+     * @param hotel instance
+     * @return value reprenting a status
+     * @throws IllegalAccessException for giving no rating .
+     */
+
     public String validateAndAddHotel(Hotel hotel) throws IllegalAccessException {
         String name = hotel.getName();
         int rating = hotel.getRating();
+
         if (name.equals("")) {
-            throw new IllegalAccessException("Enter the hotel name again");
+            throw new NullPointerException("Enter the hotel name again");
         }
         if (rating == 0) {
             throw new IllegalAccessException( "Enter the rating  again");
         }
+
 
         boolean responseFromRepo = hotelRepository.add(hotel);
         if (responseFromRepo) {

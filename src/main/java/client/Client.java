@@ -2,7 +2,9 @@ package client;
 
 import person.Human;
 
-public class Client extends Human {
+import java.io.Serializable;
+
+public class Client extends Human implements Serializable {
 
     private int clientCode;
     private String entryDate;

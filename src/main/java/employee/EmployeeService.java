@@ -12,6 +12,13 @@ public class EmployeeService {
 
     }
 
+    /**
+     * Validate Employee object and add it to the list.
+     *
+     * @param employee instance
+     * @return value representing a status
+     */
+
     public String validateAndAddEmployee(Employee employee) {
         // smth
 

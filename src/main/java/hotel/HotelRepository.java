@@ -6,6 +6,14 @@ import java.util.List;
 public class HotelRepository implements HotelInterface {
     private List<Hotel> hotels = new ArrayList<>();
 
+    /**
+     *
+     * {@inheritDoc}
+     */
+
+
+
+
     @Override
     public boolean add(Hotel hotel) {
         hotels.add(hotel);

@@ -14,7 +14,13 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 import room.Room;
 
+import java.util.Arrays;
+import java.util.List;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.IsCollectionContaining.hasItems;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
@@ -61,6 +67,28 @@ public class HotelServiceTest {
 
 
     }
+
+    @Test
+    public void shouldVerify_IfStreetFromAdress_IsNull(){
+        //GIVEN
+        Address address = new Address(null,5,"Cluj");
+        //WHEN
+        //THEN
+        assertNotNull(address.getStreet());
+    }
+
+    @Test(expected = IllegalAccessException.class)
+    public void shouldDoSmth(){
+        //GIVEN
+        Address address = new Address("1 dec ",6,"Cluj");
+        Room room = new Room(6,3,"Est");
+        Hotel hotel = new Hotel(0,"Tinut",address,room, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS);
+        //Then
+        List<Hotel> hotels = Arrays.asList(hotel);
+    }
+
+
+
 
 
 

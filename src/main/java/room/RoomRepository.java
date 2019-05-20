@@ -6,6 +6,9 @@ import java.util.List;
 public class RoomRepository implements RoomInterface {
     private List<Room> rooms = new ArrayList<>();
 
+    /**
+     *{@inheritDoc}
+     */
     @Override
     public boolean add(Room room) {
         rooms.add(room);

@@ -10,6 +10,11 @@ public class RoomService {
         this.roomRepository = roomRepository;
     }
 
+    /**
+     * Validate  Room object and add it to the list.
+     * @param room instance
+     * @return value representing a status
+     */
     public String validateAndAddRoom(Room room) {
         //some exceptions going on
         boolean responseFromRepo = roomRepository.add(room);

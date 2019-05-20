@@ -6,6 +6,10 @@ import java.util.List;
 public class OwnerRepository implements OwnerInterface {
     private List<Owner> owners = new ArrayList<>();
 
+    /**
+     *
+     * {@inheritDoc}
+     */
     @Override
     public boolean add(Owner owner) {
         owners.add(owner);

@@ -2,7 +2,13 @@ package room;
 
 import java.util.List;
 
+
 public interface RoomInterface {
+    /**
+     * Add room
+     * @param room instance
+     * @return true is inserted
+     */
 
     boolean add(Room room);
 

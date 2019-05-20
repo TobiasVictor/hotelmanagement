@@ -6,6 +6,10 @@ import java.util.List;
 public class EmployeeRepository implements EmployeeInterface {
     private List<Employee> employees = new ArrayList<>();
 
+    /**
+     *
+     * {@inheritDoc}
+     */
     @Override
     public boolean add(Employee employee) {
         employees.add(employee);

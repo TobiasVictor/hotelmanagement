@@ -1,0 +1,1 @@
+Details of first room :  room number :  55 , room capacity is : 3 , room orientation is : Vest
