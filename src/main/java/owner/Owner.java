@@ -1,20 +1,22 @@
 package owner;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import person.Human;
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class Owner<T extends Human> {
 
-public class Owner extends Human {
+    //using place holder for 1 variable
 
-
-    private double ownWealth;
+    private T t;
     private int salary;
     private String education;
 
-    public Owner(String firstName, String lastName, int age, double ownWealth, int salary, String education) {
-        super(firstName, lastName, age);
-        this.education = education;
-        this.ownWealth = ownWealth;
-        this.salary = salary;
 
-    }
 }

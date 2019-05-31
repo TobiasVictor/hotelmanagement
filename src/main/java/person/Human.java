@@ -1,32 +1,24 @@
 package person;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.apache.log4j.Logger;
 
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class Human {
    private final  Logger log = Logger.getLogger(Human.class);
-    private String firstName;
-    private String lastName;
-    private int age;
 
-    public String getFirstName() {
-        return firstName;
-    }
+   private String firstName;
+   private String lastName;
+   private int age;
+   private int cnp;
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-
-    public Human(String firstName, String lastName, int age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-
-    }
 
     protected void display() {
         log.debug(firstName + " " + lastName + "  " + age);

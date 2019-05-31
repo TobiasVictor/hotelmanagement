@@ -23,8 +23,9 @@ public class ClientCSVReader {
                     tokens[1],
                     Integer.parseInt(tokens[2]),
                     Integer.parseInt(tokens[3]),
-                    tokens[4],
-                    tokens[5]);
+                    Integer.parseInt(tokens[4]),
+                    tokens[5],
+                    tokens[6]);
             clients.add(client);
             line = bufReader.readLine();
 

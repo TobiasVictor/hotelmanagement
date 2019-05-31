@@ -1,5 +1,4 @@
 
-N
-squid:S106,"9Replace this use of System.out or System.err by a logger.(€υ>
-Xsquid:S1133"5Do not forget to remove this deprecated code someday.(†—Υ”ώÿÿÿÿ8―ώ¥¨­-
-\squid:MissingDeprecatedCheck"(Add the missing @deprecated Javadoc tag.(†—Υ”ώÿÿÿÿ8―ώ¥¨­-
+Xsquid:S1133"5Do not forget to remove this deprecated code someday.(Κμωÿÿÿÿ8―ίτ­-
+wsquid:S1210!"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(Θ…µ8―ίτ­-
+\squid:MissingDeprecatedCheck"(Add the missing @deprecated Javadoc tag.(Κμωÿÿÿÿ8―ίτ­-

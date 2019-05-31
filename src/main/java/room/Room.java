@@ -1,52 +1,40 @@
 package room;
 
-public class Room {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+import org.apache.log4j.Logger;
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+public class Room implements Comparable<Room>{
 
+    private static final Logger Log = Logger.getLogger(Room.class);
 
-    private int roomNumber;
+    private String roomName;
     private int roomCapacity;
     private String roomOrientation;
 
-    public int getRoomNumber() {
-        return roomNumber;
-    }
-
-    public int getRoomCapacity() {
-        return roomCapacity;
-    }
-
-    public String getRoomOrientation() {
-        return roomOrientation;
-    }
-
-
-    public void setRoomParameters(int roomCapacity, String roomOrientation, int roomNumber) {
-        this.roomCapacity = roomCapacity;
-        this.roomOrientation = roomOrientation;
-        this.roomNumber = roomNumber;
-
-
-    }
     @Deprecated
-    public Room(int roomNumber, String roomOrientation) {
-        this.roomNumber = roomNumber;
+    public Room(String roomName, String roomOrientation) {
+        this.roomName = roomName;
         this.roomOrientation = roomOrientation;
     }
 
-
-    public Room(int roomNumber, int roomCapacity, String roomOrientation) {
-        this.roomNumber = roomNumber;
-        this.roomCapacity = roomCapacity;
-        this.roomOrientation = roomOrientation;
-    }
 
     public void roomPresentation() {
-        System.out.println("Our room is number : " + roomNumber + " is oriented in: " + roomOrientation + " and it has a capacity of :" + roomCapacity);
+        Log.info("Our room is number : " + roomName + " is oriented in: " + roomOrientation + " and it has a capacity of :" + roomCapacity);
     }
 
-    @Override
-    public String toString() {
-        return "room number :  " + roomNumber + " , room capacity is : " + roomCapacity + " , room orientation is : " + roomOrientation;
 
+    @Override
+    public int compareTo(Room o) {
+        if(getRoomName() == null || o.getRoomName()==null)
+        {
+            return  0 ;
+        }
+        return getRoomName().compareTo(o.getRoomName());
     }
 }

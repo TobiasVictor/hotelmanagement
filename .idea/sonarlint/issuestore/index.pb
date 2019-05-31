@@ -73,16 +73,10 @@ a
 -src/test/java/hoteltest/HotelServiceTest.java,e\2\e23023a98d0743cb953894511bb272af29fe533a
 8
 test.txt,4\b\4b6fcb2d521ef0fd442a5301e7932d16cc9f375a
-M
-src/main/java/Employeeee.java,0\a\0ab93ec82be7834c17a5dcc28e8b48f1c1a73778
-H
-src/main/java/Mainn.java,1\9\19bc429dea3a39aba1c4d3049637d314b09e9408
 6
 in.txt,6\4\64119f87ea3334ba05b3b3566902d06cf11678d5
 7
 out.txt,1\e\1e0e364a22c69340e6f02604520fdeb7674264c0
-U
-%src/main/java/HotelNameException.java,3\f\3f01eaf28ab4aecca24f61e2c07c3a42dc1d07a8
 8
 room.txt,e\4\e40a4df97a5800f4dfdcedbdef9d7dfcfc10c8ba
 R
@@ -91,3 +85,5 @@ R
 "src/main/java/ClientCSVParser.java,b\4\b48c5f1a6ee23243c95e9917098acf8a1af64865
 H
 src/main/java/client.csv,7\e\7eada952c0ea0d988665f44de292611be33f8d53
+U
+%src/main/java/dbteststuff/Author.java,5\8\5824b4cfbe51a4bb93eb1e309d7b7f46f1adaa11

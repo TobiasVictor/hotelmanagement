@@ -34,8 +34,8 @@ public class HotelRepositoryTest {
         //GIVEN
 
         Address address = new Address("1 dec ", 6, "Cluj");
-        Room room = new Room(6, 3, "Est");
-        Hotel hotel = new Hotel(5, "Tinut", address, room, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS);
+        Room room = new Room("Poc", 3, "Est");
+        Hotel hotel = new Hotel(5, "Tinut", address, room, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,434);
 
         //WHEN
         boolean response = hotelRepository.add(hotel);
@@ -50,8 +50,8 @@ public class HotelRepositoryTest {
         //GIVEN
 
         Address address = new Address("1 dec ", 6, "Cluj");
-        Room room = new Room(6, 3, "Est");
-        Hotel hotel = new Hotel(5, "Tinut", address, room, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS);
+        Room room = new Room("Room", 3, "Est");
+        Hotel hotel = new Hotel(5, "Tinut", address, room, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,567);
 
         //WHEN
         boolean response = hotelRepository.add(hotel);
@@ -73,11 +73,11 @@ public class HotelRepositoryTest {
     public void should_CheckList() {
         //GIVEN
         Address address = new Address("1 dec ", 6, "Cluj");
-        Room room = new Room(6, 3, "Est");
-        Hotel hotel = new Hotel(5, "Tinut", address, room, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS);
+        Room room = new Room("Lavanda", 3, "Est");
+        Hotel hotel = new Hotel(5, "Tinut", address, room, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,20);
         Address address1 = new Address("1 decc ", 7, "Clujj");
-        Room room1 = new Room(9, 5, "Vest");
-        Hotel hotel1 = new Hotel(2, "Tinut1", address1, room1, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS);
+        Room room1 = new Room("Ionetul", 5, "Vest");
+        Hotel hotel1 = new Hotel(2, "Tinut1", address1, room1, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,454);
         //When
         List<Hotel> hotels = Arrays.asList(hotel, hotel1);
         //Then

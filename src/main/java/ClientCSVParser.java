@@ -7,6 +7,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class ClientCSVParser {
     public List<Client> parseClients(InputStream csvInputStream) throws IOException{
 
@@ -31,8 +32,9 @@ public class ClientCSVParser {
                         tokens[1],
                     Integer.parseInt(tokens[2]),
                     Integer.parseInt(tokens[3]),
-                    tokens[4],
-                    tokens[5]);
+                    Integer.parseInt(tokens[4]),
+                    tokens[5],
+                    tokens[6]);
 
             clients.add(client);
 
