@@ -2,41 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc0c88b1-5652-429e-a683-41dbfb5bbcb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0ab93ec82be7834c17a5dcc28e8b48f1c1a73778" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f7747f25a6ff295c5d193754aeb3f9b9db555c9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f7747f25a6ff295c5d193754aeb3f9b9db555c9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19bc429dea3a39aba1c4d3049637d314b09e9408" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f01eaf28ab4aecca24f61e2c07c3a42dc1d07a8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95594dd1ba35b4dbfc7bc94da250190a38544182" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95594dd1ba35b4dbfc7bc94da250190a38544182" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room.txt" beforeDir="false" afterPath="$PROJECT_DIR$/room.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClientCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientCSVParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClientCSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientCSVReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HotelNameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hotel/HotelNameException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hotel/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hotel/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hotel/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hotel/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/owner/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/owner/Owner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/person/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/person/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/room/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hoteltest/HotelRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hoteltest/HotelRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hoteltest/HotelServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hoteltest/HotelServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ClientCSVParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClientCSVParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ClientCSVReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClientCSVReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HotelNameException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/employee/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/employee/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hotel/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hotel/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hotel/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hotel/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/owner/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/owner/Owner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/person/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/person/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/room/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/room/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hoteltest/HotelRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hoteltest/HotelRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hoteltest/HotelServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hoteltest/HotelServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="193" selection-start-line="193" selection-end-line="193" />
+            <state relative-caret-position="345">
+              <caret line="125" lean-forward="true" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/room/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
+            <state relative-caret-position="342">
               <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/person/Human.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="9">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +99,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="400">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ClientCSVParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hotel/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -223,18 +207,18 @@
         <option value="$PROJECT_DIR$/src/main/java/dbteststuff/JDBCMain.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/test.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/person/Human.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClientCSVParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/employee/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClientCSVReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/hotel/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/hotel/Hotel.java" />
         <option value="$PROJECT_DIR$/src/test/java/hoteltest/HotelRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/hoteltest/HotelServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/room/RoomInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/owner/Owner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/person/Human.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Client.java" />
       </list>
     </option>
   </component>
@@ -257,9 +241,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="810" />
-    <option name="width" value="1118" />
-    <option name="height" value="1038" />
+    <option name="x" value="677" />
+    <option name="y" value="173" />
+    <option name="width" value="1119" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -267,6 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -383,11 +369,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559333161277" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559384023875" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../scoalainformala-master (3)" />
@@ -555,7 +540,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2758389" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -868,16 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClientCSVParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ClientCSVReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -902,13 +877,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -959,40 +927,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        <state relative-caret-position="391">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientCSVParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/owner/Owner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/room/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/person/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="400">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1003,16 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1030,6 +975,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/owner/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/person/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/room/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="125" lean-forward="true" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

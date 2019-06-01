@@ -592,3 +592,184 @@
 2019-05-31 22:54:41 INFO  MainClass:246 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
 2019-05-31 22:54:41 INFO  MainClass:246 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
 2019-05-31 22:54:41 INFO  MainClass:121 - [person.Human@5b80350b, employee.Employee@5d6f64b1]
+2019-06-01 13:08:51 ERROR MainClass:44 - La Ciortanu
+2019-06-01 13:08:51 INFO  MainClass:47 - PICTURESQUE
+2019-06-01 13:08:51 INFO  MainClass:49 - OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:08:51 INFO  MainClass:53 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:08:51 INFO  MainClass:54 - String value defined : outside the holiday season 
+2019-06-01 13:08:51 INFO  MainClass:55 - Int value defined : 12
+2019-06-01 13:08:51 INFO  MainClass:56 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:08:51 INFO  MainClass:53 - Hotel OPEN_TIME_ON_HOLIDAYS
+2019-06-01 13:08:51 INFO  MainClass:54 - String value defined : holiday season
+2019-06-01 13:08:51 INFO  MainClass:55 - Int value defined : 24
+2019-06-01 13:08:51 INFO  MainClass:56 - Name to string : OPEN_TIME_ON_HOLIDAYS
+2019-06-01 13:08:51 INFO  MainClass:61 - Try to insert a hotel
+2019-06-01 13:08:51 INFO  MainClass:165 - Eight Million  7  South
+2019-06-01 13:08:51 INFO  MainClass:165 - Five Million  1  Vest
+2019-06-01 13:08:51 INFO  MainClass:165 - Four Million  3  Vest
+2019-06-01 13:08:51 INFO  MainClass:165 - Nine Million  8  Vest
+2019-06-01 13:08:51 INFO  MainClass:165 - One Million  3  Est
+2019-06-01 13:08:51 INFO  MainClass:165 - Seven Million  4  Vest
+2019-06-01 13:08:51 INFO  MainClass:165 - Six Million  3  West
+2019-06-01 13:08:51 INFO  MainClass:165 - Ten Million  3  Vest
+2019-06-01 13:08:51 INFO  MainClass:165 - Three Million  2  North
+2019-06-01 13:08:51 INFO  MainClass:165 - Two Million  4  Vest
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1990321244 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:216 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:08:51 INFO  MainClass:247 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
+2019-06-01 13:08:51 INFO  MainClass:247 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
+2019-06-01 13:08:51 INFO  MainClass:247 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
+2019-06-01 13:08:51 INFO  MainClass:120 - java.lang.NullPointerException
+2019-06-01 13:09:44 ERROR MainClass:44 - La Ciortanu
+2019-06-01 13:09:44 INFO  MainClass:47 - PICTURESQUE
+2019-06-01 13:09:44 INFO  MainClass:49 - OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:09:44 INFO  MainClass:53 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:09:44 INFO  MainClass:54 - String value defined : outside the holiday season 
+2019-06-01 13:09:44 INFO  MainClass:55 - Int value defined : 12
+2019-06-01 13:09:44 INFO  MainClass:56 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:09:44 INFO  MainClass:53 - Hotel OPEN_TIME_ON_HOLIDAYS
+2019-06-01 13:09:44 INFO  MainClass:54 - String value defined : holiday season
+2019-06-01 13:09:44 INFO  MainClass:55 - Int value defined : 24
+2019-06-01 13:09:44 INFO  MainClass:56 - Name to string : OPEN_TIME_ON_HOLIDAYS
+2019-06-01 13:09:44 INFO  MainClass:61 - Try to insert a hotel
+2019-06-01 13:09:44 INFO  MainClass:165 - Eight Million  7  South
+2019-06-01 13:09:44 INFO  MainClass:165 - Five Million  1  Vest
+2019-06-01 13:09:44 INFO  MainClass:165 - Four Million  3  Vest
+2019-06-01 13:09:44 INFO  MainClass:165 - Nine Million  8  Vest
+2019-06-01 13:09:44 INFO  MainClass:165 - One Million  3  Est
+2019-06-01 13:09:44 INFO  MainClass:165 - Seven Million  4  Vest
+2019-06-01 13:09:44 INFO  MainClass:165 - Six Million  3  West
+2019-06-01 13:09:44 INFO  MainClass:165 - Ten Million  3  Vest
+2019-06-01 13:09:44 INFO  MainClass:165 - Three Million  2  North
+2019-06-01 13:09:44 INFO  MainClass:165 - Two Million  4  Vest
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:216 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:09:44 INFO  MainClass:247 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
+2019-06-01 13:09:44 INFO  MainClass:247 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
+2019-06-01 13:09:44 INFO  MainClass:247 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
+2019-06-01 13:09:44 INFO  MainClass:120 - java.lang.NullPointerException
+2019-06-01 13:11:22 ERROR MainClass:44 - La Ciortanu
+2019-06-01 13:11:22 INFO  MainClass:47 - PICTURESQUE
+2019-06-01 13:11:22 INFO  MainClass:49 - OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:11:22 INFO  MainClass:53 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:11:22 INFO  MainClass:54 - String value defined : outside the holiday season 
+2019-06-01 13:11:22 INFO  MainClass:55 - Int value defined : 12
+2019-06-01 13:11:22 INFO  MainClass:56 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:11:22 INFO  MainClass:53 - Hotel OPEN_TIME_ON_HOLIDAYS
+2019-06-01 13:11:22 INFO  MainClass:54 - String value defined : holiday season
+2019-06-01 13:11:22 INFO  MainClass:55 - Int value defined : 24
+2019-06-01 13:11:22 INFO  MainClass:56 - Name to string : OPEN_TIME_ON_HOLIDAYS
+2019-06-01 13:11:22 INFO  MainClass:61 - Try to insert a hotel
+2019-06-01 13:11:22 INFO  MainClass:165 - Eight Million  7  South
+2019-06-01 13:11:22 INFO  MainClass:165 - Five Million  1  Vest
+2019-06-01 13:11:22 INFO  MainClass:165 - Four Million  3  Vest
+2019-06-01 13:11:22 INFO  MainClass:165 - Nine Million  8  Vest
+2019-06-01 13:11:22 INFO  MainClass:165 - One Million  3  Est
+2019-06-01 13:11:22 INFO  MainClass:165 - Seven Million  4  Vest
+2019-06-01 13:11:22 INFO  MainClass:165 - Six Million  3  West
+2019-06-01 13:11:22 INFO  MainClass:165 - Ten Million  3  Vest
+2019-06-01 13:11:22 INFO  MainClass:165 - Three Million  2  North
+2019-06-01 13:11:22 INFO  MainClass:165 - Two Million  4  Vest
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:216 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:11:22 INFO  MainClass:247 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
+2019-06-01 13:11:22 INFO  MainClass:247 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
+2019-06-01 13:11:22 INFO  MainClass:247 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
+2019-06-01 13:11:22 INFO  MainClass:120 - java.lang.NullPointerException
+2019-06-01 13:13:45 ERROR MainClass:44 - La Ciortanu
+2019-06-01 13:13:45 INFO  MainClass:47 - PICTURESQUE
+2019-06-01 13:13:45 INFO  MainClass:49 - OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:13:45 INFO  MainClass:53 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:13:45 INFO  MainClass:54 - String value defined : outside the holiday season 
+2019-06-01 13:13:45 INFO  MainClass:55 - Int value defined : 12
+2019-06-01 13:13:45 INFO  MainClass:56 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-01 13:13:45 INFO  MainClass:53 - Hotel OPEN_TIME_ON_HOLIDAYS
+2019-06-01 13:13:45 INFO  MainClass:54 - String value defined : holiday season
+2019-06-01 13:13:45 INFO  MainClass:55 - Int value defined : 24
+2019-06-01 13:13:45 INFO  MainClass:56 - Name to string : OPEN_TIME_ON_HOLIDAYS
+2019-06-01 13:13:45 INFO  MainClass:61 - Try to insert a hotel
+2019-06-01 13:13:45 INFO  MainClass:165 - Eight Million  7  South
+2019-06-01 13:13:45 INFO  MainClass:165 - Five Million  1  Vest
+2019-06-01 13:13:45 INFO  MainClass:165 - Four Million  3  Vest
+2019-06-01 13:13:45 INFO  MainClass:165 - Nine Million  8  Vest
+2019-06-01 13:13:45 INFO  MainClass:165 - One Million  3  Est
+2019-06-01 13:13:45 INFO  MainClass:165 - Seven Million  4  Vest
+2019-06-01 13:13:45 INFO  MainClass:165 - Six Million  3  West
+2019-06-01 13:13:45 INFO  MainClass:165 - Ten Million  3  Vest
+2019-06-01 13:13:45 INFO  MainClass:165 - Three Million  2  North
+2019-06-01 13:13:45 INFO  MainClass:165 - Two Million  4  Vest
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:216 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
+2019-06-01 13:13:45 INFO  MainClass:247 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
+2019-06-01 13:13:45 INFO  MainClass:247 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
+2019-06-01 13:13:45 INFO  MainClass:247 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
+2019-06-01 13:13:45 INFO  MainClass:120 - java.lang.NullPointerException

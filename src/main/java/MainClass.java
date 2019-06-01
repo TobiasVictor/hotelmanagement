@@ -168,8 +168,8 @@ public class MainClass  {
     }
     private static void clientSet(){
             //creating clients for set
-        Client client1 = new Client("gigi","tinu",22,1990321234,55,"20 mai 1990","22 mai 1990");
-        Client client2 = new Client("gigi","tinu",22,1990321244,55,"20 mai 1990","22 mai 1990");
+        Client client1 = new Client("gigi","tinu",22,1,55,"20 mai 1990","22 mai 1990");
+        Client client2 = new Client("gigi","tinu",22,1,55,"20 mai 1990","22 mai 1990");
         Client client3 = new Client("gigi","tinu",22,1990321254,55,"20 mai 1990","22 mai 1990");
         Client client4 = new Client("gigi","tinu",22,1990321264,55,"20 mai 1990","22 mai 1990");
         Client client5 = new Client("gigi","tinu",22,1990321274,55,"20 mai 1990","22 mai 1990");
