@@ -81,7 +81,7 @@ public class HotelRepositoryTest {
         //When
         List<Hotel> hotels = Arrays.asList(hotel, hotel1);
         //Then
-        MatcherAssert.assertThat(hotels, IsCollectionContaining.hasItems(hotel));
+
 
 
     }

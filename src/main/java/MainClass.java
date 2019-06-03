@@ -113,18 +113,48 @@ public class MainClass  {
         roomsList();
         clientSet();
         roomMap();
-
+        functionStreamNumber1();
+        optionalFunction();
         List <? super Human> testsuper = new ArrayList<>();
         testsuper.add(new Human());
         testsuper.add(new Employee());
         Log.info(testsuper);
+        Address address5 = new Address.Builder("Sessame")
+                .nameNumber(69)
+                .showCity("Cluj-Napoca")
+                .build();
 
 
 
+        Log.info(address5);
 
 
 
+    }
 
+    private  static void functionStreamNumber1(){
+
+        List<String> myList =
+                Arrays.asList("Stefanut","a1","b1","c2","c1");
+
+        List<Integer>integerList=
+                Arrays.asList(1,2,3,4,5);
+        myList
+              .stream()
+              .filter(s -> s.contains("fanu"))
+              .map(String::toUpperCase)
+
+              .sorted()
+                .forEach(System.out::println);
+
+        integerList
+                .stream()
+                .min(Comparator.comparing(Integer::valueOf));
+
+
+        boolean found = myList.stream()
+                .anyMatch(element -> element.contains("1"));
+        Log.info(found);
     }
 
     private static void roomsList() {
@@ -164,6 +194,7 @@ public class MainClass  {
         for (Room room : sortedRooms){
             Log.info(room.getRoomName()+" " + " " + room.getRoomCapacity()+" " +" "+ room.getRoomOrientation());
         }
+        sortedRooms.forEach(System.out::println);
         //sortedRooms.size();
     }
     private static void clientSet(){
@@ -216,6 +247,17 @@ public class MainClass  {
             Log.info(client.getFirstName()+ " "+client.getLastName()+" "+ client.getAge()+" "+client.getCnp()+" "+client.getClientCode()+" "+client.getEntryDate()+" "+ client.getExitDate());
         }
     }
+
+
+
+
+
+
+
+
+
+
+
     private static void roomMap(){
         Address secondAddress = new Address("Izlazului", 56, "Cluj-Napoca");
         Address thirdAddress = new Address("Plopului", 65, "Cluj-Napoca");
@@ -249,6 +291,18 @@ public class MainClass  {
 
 
     }
+    private  static  void optionalFunction()
+    { Optional<String> phone = Optional.of("Human");
+        String firstAnswer = "0264258810";
+        String secondAnswer = null;
+        phone.ifPresent(name -> Log.info(firstAnswer.length()));
+        String answer = phone.get();
+        Log.info(answer);
+        Log.info(phone.isPresent());
+        Log.info(Optional.ofNullable(secondAnswer));
+
+    }
+
 
 
 

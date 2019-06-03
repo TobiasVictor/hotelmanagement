@@ -1,14 +1,18 @@
 
-Msquid:S2093K"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ç°ëþ¬-
-Nsquid:S1481"+Remove this unused "second" local variable.(¹åÔ÷ûÿÿÿÿ8’¯ßô­-
-jsquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(Ç­È¹8óºží°-
-lsquid:S1192«"MDefine a constant instead of duplicating this literal "22 mai 1990" 20 times.(öØËà8áªÅô°-
-jsquid:CommentedOutCodeLine§"<This block of commented-out lines of code should be removed.(´¡àÉ8óºží°-
-Hsquid:S1481"*Remove this unused "human" local variable.(æµ“Ä8¦ŠÄ™©-
-Fsquid:S1148U"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ç°ëþ¬-
-Fsquid:S1148h"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ç°ëþ¬-
-lsquid:S1192«"MDefine a constant instead of duplicating this literal "20 mai 1990" 20 times.(öØËà8áªÅô°-
+osquid:S1192"LDefine a constant instead of duplicating this literal "Cluj-Napoca" 6 times.(æËÅÞýÿÿÿÿ8ð–—ú°-
+lsquid:S1192Ê"MDefine a constant instead of duplicating this literal "20 mai 1990" 20 times.(öØËà8áªÅô°-
+8squid:S1220""Move this file to a named package.8¦ª×ï¦-
+\
+squid:S106”"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8óÎÌÕ±-
+\
+squid:S106Å"9Replace this use of System.out or System.err by a logger.(ìÖà‰øÿÿÿÿ8óÎÌÕ±-
 `squid:CallToDeprecatedMethod",Remove this use of "Room"; it is deprecated.(¹åÔ÷ûÿÿÿÿ8’¯ßô­-
 Fsquid:S1148^"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ç°ëþ¬-
-osquid:S1192"LDefine a constant instead of duplicating this literal "Cluj-Napoca" 5 times.(æËÅÞýÿÿÿÿ8ð–—ú°-
-8squid:S1220""Move this file to a named package.8¦ª×ï¦-
+jsquid:CommentedOutCodeLineÆ"<This block of commented-out lines of code should be removed.(´¡àÉ8óºží°-
+Fsquid:S1148U"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ç°ëþ¬-
+lsquid:S1192Ê"MDefine a constant instead of duplicating this literal "22 mai 1990" 20 times.(öØËà8áªÅô°-
+Hsquid:S1481"*Remove this unused "human" local variable.(æµ“Ä8¦ŠÄ™©-
+Msquid:S2093K"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ç°ëþ¬-
+Fsquid:S1148h"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ç°ëþ¬-
+jsquid:CommentedOutCodeLineº"<This block of commented-out lines of code should be removed.(Ç­È¹8óºží°-
+Nsquid:S1481"+Remove this unused "second" local variable.(¹åÔ÷ûÿÿÿÿ8’¯ßô­-

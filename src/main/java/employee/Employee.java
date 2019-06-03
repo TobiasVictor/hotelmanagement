@@ -14,8 +14,14 @@ public class Employee extends Human {
 
 
 
-    private int employeeSalary;
-    private int jobId;
-    private String jobPosition;
+        private int employeeSalary;
+        private int jobId;
+        private String jobPosition;
+
+
+
+
+
+
 
 }
