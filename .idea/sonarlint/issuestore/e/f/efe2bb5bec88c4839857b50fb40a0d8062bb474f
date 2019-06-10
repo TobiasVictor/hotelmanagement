@@ -1,0 +1,8 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ΜλΊξόÿÿÿÿ8τοΌ³-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ρ°Δμωÿÿÿÿ8τοΌ³-
+Fsquid:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8τοΌ³-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(δ Ή€8τοΌ³-
+^squid:S2184"@Cast one of the operands of this addition operation to a "long".(ΣαΎθ8τοΌ³-

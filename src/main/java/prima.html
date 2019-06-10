@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>Prima Lectie HTML</title>
+    <style>
+            .first-class {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 24px;
+                color:salmon;
+            }
+            img {
+                padding: 20px;
+                border: 1px solid #ff0000;
+                margin: 10px;
+            }
+            span {
+                display: block;
+            }
+            table td {
+                border: 1px dashed black;
+                text-align: center;
+            }
+        </style>
+</head>
+<body>
+<p>Primul meu paragraf.</p>
+<a href="#portfolio">go to section</a>
+<a href="http://google.com" target="_blank" title="go to this">link</a><br/>
+<b>text bold</b> <strong>text strong</strong><br/>
+<em>emp text</em> <i>italic text</i>
+<div class="first-class">My first class</div>
+<img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg" width="200" />
+<ol type="a">
+    <li>primul</li>
+    <li>secund</li>
+    <li>mererererere</li>
+</ol>
+<ul type="circle">
+    <li>primul</li>
+    <li>secund</li>
+    <li>mererererere</li>
+</ul>
+<div id="portfolio">
+    <h2>portfolio</h2>
+    <span>Website</span>
+    <span>Shop online</span>
+</div>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<table>
+    <tr>
+        <td rowspan="2">celula 1</td>
+        <td colspan="2">celula 2</td>
+    </tr>
+    <tr>
+        <td>celula 2 randul 2</td>
+        <td>celula 3</td>
+    </tr>
+
+</table>
+<form>
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname"></input>
+    <hr/>
+    <label for="password">Password</label>
+    <input type="password" id="password" />
+    <hr/>
+    <input type="checkbox" value="rosu" id="color"><label for="color">Rosu</label></input>
+    <input type="checkbox" value="red">Red</input>
+
+    <input type="file" />
+    <hr />
+    <input type="email">
+
+    <input type="reset"> Reset</input>
+</form>
+</body>
+</html>

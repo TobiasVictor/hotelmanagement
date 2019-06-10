@@ -1,9 +1,12 @@
 package hotel;
 
+import client.ClientThread;
 import enums_hotel.HotelOpenTime;
 import enums_hotel.HotelType;
 import lombok.*;
 import room.Room;
+
+import java.util.Queue;
 
 
 @Getter
@@ -21,5 +24,9 @@ public class Hotel  {
     private HotelType hotelType;
     private HotelOpenTime hotelOpenTime;
     private long id;
+
+    public Queue<ClientThread> clientThreads(){
+        return  clientThreads();
+    }
 
 }

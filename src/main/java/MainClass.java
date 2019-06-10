@@ -1,4 +1,6 @@
+import client.CheckinData;
 import client.Client;
+import client.ClientThread;
 import employee.Employee;
 import enums_hotel.HotelOpenTime;
 import enums_hotel.HotelType;
@@ -6,7 +8,6 @@ import hotel.*;
 import org.apache.log4j.Logger;
 import person.Human;
 import room.Room;
-
 import java.io.*;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -18,7 +19,7 @@ public class MainClass  {
     public static void main(String[] args) throws IllegalAccessException, FileNotFoundException, HotelNameException {
         Address firstAddress = new Address("Bucuresti", 55, "Cluj-Napoca");
         Room firstRoom = new Room("One Million", 3, "Vest");
-        final Hotel firstHotel = new Hotel(7, "La Ciortanu", firstAddress, firstRoom, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_OUTSIDE_HOLIDAYS,421);
+        Hotel firstHotel = new Hotel(7, "La Ciortanu", firstAddress, firstRoom, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_OUTSIDE_HOLIDAYS,421);
         Address secondAddress = new Address("Izlazului", 56, "Cluj-Napoca");
         Room secondRoom = new Room("DIor", 2, "Est");
         Hotel f1 = new Hotel(1, "dior", firstAddress, firstRoom, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_OUTSIDE_HOLIDAYS,132);
@@ -127,6 +128,31 @@ public class MainClass  {
 
 
         Log.info(address5);
+        Random randomDay = new Random();
+        Random randomMonth = new Random();
+        Integer day=1+randomDay.nextInt(31);
+        Integer month=1+randomMonth.nextInt(12);
+
+        CheckinData checkinData1 = new CheckinData(day,month);
+        CheckinData checkinData2 = new CheckinData(day,month);
+        CheckinData checkinData3 = new CheckinData(day,month);
+
+        ClientThread clientThread = new ClientThread();
+        clientThread.start();
+
+
+        ClientThread client1 = new ClientThread(firstHotel,checkinData1,"11:00 PM");
+        ClientThread client2 = new ClientThread(firstHotel,checkinData1,"10:00 PM");
+        ClientThread client3 = new ClientThread(firstHotel,checkinData2,"8:00 PM");
+        ClientThread client4 = new ClientThread(firstHotel,checkinData3,"11:00 PM");
+
+
+
+
+
+
+
+
 
 
 
