@@ -17,9 +17,11 @@ public class MainClass  {
     private static final Logger Log = Logger.getLogger(MainClass.class);
 
     public static void main(String[] args) throws IllegalAccessException, FileNotFoundException, HotelNameException {
+        Queue<CheckinData> checkinData = new LinkedList<>();
+
         Address firstAddress = new Address("Bucuresti", 55, "Cluj-Napoca");
         Room firstRoom = new Room("One Million", 3, "Vest");
-        Hotel firstHotel = new Hotel(7, "La Ciortanu", firstAddress, firstRoom, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_OUTSIDE_HOLIDAYS,421);
+        Hotel firstHotel = new Hotel(7, "La Ciortanu", firstAddress, firstRoom, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_OUTSIDE_HOLIDAYS,checkinData);
         Address secondAddress = new Address("Izlazului", 56, "Cluj-Napoca");
         Room secondRoom = new Room("DIor", 2, "Est");
         Hotel f1 = new Hotel(1, "dior", firstAddress, firstRoom, HotelType.PICTURESQUE, HotelOpenTime.OPEN_TIME_OUTSIDE_HOLIDAYS,132);
@@ -285,6 +287,8 @@ public class MainClass  {
 
 
     private static void roomMap(){
+        Queue<CheckinData> checkinData = new LinkedList<>();
+
         Address secondAddress = new Address("Izlazului", 56, "Cluj-Napoca");
         Address thirdAddress = new Address("Plopului", 65, "Cluj-Napoca");
         Address firstAddress = new Address("Carnatului", 562, "Cluj-Napoca");
@@ -292,9 +296,9 @@ public class MainClass  {
         Room roomno2 = new Room("Sec", 3, "Est");
         Room roomno3 = new Room("Third", 2, "South");
 
-        Hotel hotel1 = new Hotel(5,"Palazzio",firstAddress,roomno1,HotelType.PICTURESQUE,HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,560);
-        Hotel hotel2 = new Hotel(3,"Palazzio1",secondAddress,roomno2,HotelType.PICTURESQUE,HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,561);
-        Hotel hotel3 = new Hotel(7,"Palazzio3",thirdAddress,roomno3,HotelType.PICTURESQUE,HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,562);
+        Hotel hotel1 = new Hotel(5,"Palazzio",firstAddress,roomno1,HotelType.PICTURESQUE,HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,561);
+        Hotel hotel2 = new Hotel(3,"Palazzio1",secondAddress,roomno2,HotelType.PICTURESQUE,HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,542);
+        Hotel hotel3 = new Hotel(7,"Palazzio3",thirdAddress,roomno3,HotelType.PICTURESQUE,HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,290);
 
         // first list
 

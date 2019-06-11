@@ -18,7 +18,6 @@ private String hour;
     @Override
     public void run() {
 
-            ClientThread clientThread = new ClientThread();
         if (checkinData.getDay()==0 || checkinData.getMonth()==0){
             try {
                 throw  new  IllegalAccessException("Re enter checkin data ");
@@ -27,7 +26,7 @@ private String hour;
             }
 
         }
-        hotel.clientThreads().add(clientThread);
+        hotel.getQueue().add(checkinData);
     }
 }
 

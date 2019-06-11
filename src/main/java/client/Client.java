@@ -23,6 +23,12 @@ public class Client extends Human implements Serializable {
         this.exitDate = exitDate;
 
     }
+    public Client(String firstName, String lastName, int age,int cnp, int clientCode) {
+        super(firstName,lastName,age,cnp);
+        this.clientCode = clientCode;
+
+
+    }
     @Override
     public boolean equals(Object obj){
         if(! (obj instanceof Client))

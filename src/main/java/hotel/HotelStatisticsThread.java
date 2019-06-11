@@ -6,19 +6,19 @@ public class HotelStatisticsThread extends Thread {
     @Override
     public void run() {
         synchronized (this) {
-            if (hotel.clientThreads().size() == 0)
+            if (hotel.getQueue().size() == 0)
                 try {
                     throw new Exception("Nothing to read");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            hotel.clientThreads();
+            hotel.getQueue();
             try {
                 Thread.sleep(5000);
             } catch (Exception e) {
                 System.out.println("Thread  interrupted.");
             }
-            counter = hotel.clientThreads().size();
+            counter = hotel.getQueue().size();
             System.out.println("Number of clients" + counter);
 
         }
