@@ -1,508 +1,150 @@
-2019-06-01 19:51:11 ERROR MainClass:44 - La Ciortanu
-2019-06-01 19:51:11 INFO  MainClass:47 - PICTURESQUE
-2019-06-01 19:51:11 INFO  MainClass:49 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-01 19:51:11 INFO  MainClass:53 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-01 19:51:11 INFO  MainClass:54 - String value defined : outside the holiday season 
-2019-06-01 19:51:11 INFO  MainClass:55 - Int value defined : 12
-2019-06-01 19:51:11 INFO  MainClass:56 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-01 19:51:11 INFO  MainClass:53 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-01 19:51:11 INFO  MainClass:54 - String value defined : holiday season
-2019-06-01 19:51:11 INFO  MainClass:55 - Int value defined : 24
-2019-06-01 19:51:11 INFO  MainClass:56 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-01 19:51:11 INFO  MainClass:61 - Try to insert a hotel
-2019-06-01 19:51:11 INFO  MainClass:187 - Eight Million  7  South
-2019-06-01 19:51:11 INFO  MainClass:187 - Five Million  1  Vest
-2019-06-01 19:51:11 INFO  MainClass:187 - Four Million  3  Vest
-2019-06-01 19:51:11 INFO  MainClass:187 - Nine Million  8  Vest
-2019-06-01 19:51:11 INFO  MainClass:187 - One Million  3  Est
-2019-06-01 19:51:11 INFO  MainClass:187 - Seven Million  4  Vest
-2019-06-01 19:51:11 INFO  MainClass:187 - Six Million  3  West
-2019-06-01 19:51:11 INFO  MainClass:187 - Ten Million  3  Vest
-2019-06-01 19:51:11 INFO  MainClass:187 - Three Million  2  North
-2019-06-01 19:51:11 INFO  MainClass:187 - Two Million  4  Vest
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:239 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-01 19:51:11 INFO  MainClass:280 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-01 19:51:11 INFO  MainClass:280 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-01 19:51:11 INFO  MainClass:280 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-01 19:51:11 INFO  MainClass:149 - true
-2019-06-01 19:51:11 INFO  MainClass:120 - java.lang.NullPointerException
-2019-06-01 19:51:11 INFO  MainClass:128 - Address(street=Sessame, number=69, city=Cluj-Napoca)
-2019-06-03 23:57:07 ERROR MainClass:44 - La Ciortanu
-2019-06-03 23:57:07 INFO  MainClass:47 - PICTURESQUE
-2019-06-03 23:57:07 INFO  MainClass:49 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-03 23:57:07 INFO  MainClass:53 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-03 23:57:07 INFO  MainClass:54 - String value defined : outside the holiday season 
-2019-06-03 23:57:07 INFO  MainClass:55 - Int value defined : 12
-2019-06-03 23:57:07 INFO  MainClass:56 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-03 23:57:07 INFO  MainClass:53 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-03 23:57:07 INFO  MainClass:54 - String value defined : holiday season
-2019-06-03 23:57:07 INFO  MainClass:55 - Int value defined : 24
-2019-06-03 23:57:07 INFO  MainClass:56 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-03 23:57:07 INFO  MainClass:61 - Try to insert a hotel
-2019-06-03 23:57:07 INFO  MainClass:195 - Eight Million  7  South
-2019-06-03 23:57:07 INFO  MainClass:195 - Five Million  1  Vest
-2019-06-03 23:57:07 INFO  MainClass:195 - Four Million  3  Vest
-2019-06-03 23:57:07 INFO  MainClass:195 - Nine Million  8  Vest
-2019-06-03 23:57:07 INFO  MainClass:195 - One Million  3  Est
-2019-06-03 23:57:07 INFO  MainClass:195 - Seven Million  4  Vest
-2019-06-03 23:57:07 INFO  MainClass:195 - Six Million  3  West
-2019-06-03 23:57:07 INFO  MainClass:195 - Ten Million  3  Vest
-2019-06-03 23:57:07 INFO  MainClass:195 - Three Million  2  North
-2019-06-03 23:57:07 INFO  MainClass:195 - Two Million  4  Vest
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:247 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-03 23:57:07 INFO  MainClass:289 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-03 23:57:07 INFO  MainClass:289 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-03 23:57:07 INFO  MainClass:289 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-03 23:57:07 INFO  MainClass:157 - true
-2019-06-03 23:57:07 INFO  MainClass:298 - 10
-2019-06-03 23:57:07 INFO  MainClass:300 - Human
-2019-06-03 23:57:07 INFO  MainClass:301 - true
-2019-06-03 23:57:07 INFO  MainClass:302 - Optional.empty
-2019-06-03 23:57:07 INFO  MainClass:121 - java.lang.NullPointerException
-2019-06-03 23:57:07 INFO  MainClass:129 - Address(street=Sessame, number=69, city=Cluj-Napoca)
-2019-06-08 19:53:20 ERROR MainClass:44 - La Ciortanu
-2019-06-08 19:53:20 INFO  MainClass:47 - PICTURESQUE
-2019-06-08 19:53:20 INFO  MainClass:49 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-08 19:53:20 INFO  MainClass:53 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-08 19:53:20 INFO  MainClass:54 - String value defined : outside the holiday season 
-2019-06-08 19:53:20 INFO  MainClass:55 - Int value defined : 12
-2019-06-08 19:53:20 INFO  MainClass:56 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-08 19:53:20 INFO  MainClass:53 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-08 19:53:20 INFO  MainClass:54 - String value defined : holiday season
-2019-06-08 19:53:20 INFO  MainClass:55 - Int value defined : 24
-2019-06-08 19:53:20 INFO  MainClass:56 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-08 19:53:20 INFO  MainClass:61 - Try to insert a hotel
-2019-06-08 19:53:21 INFO  MainClass:218 - Eight Million  7  South
-2019-06-08 19:53:21 INFO  MainClass:218 - Five Million  1  Vest
-2019-06-08 19:53:21 INFO  MainClass:218 - Four Million  3  Vest
-2019-06-08 19:53:21 INFO  MainClass:218 - Nine Million  8  Vest
-2019-06-08 19:53:21 INFO  MainClass:218 - One Million  3  Est
-2019-06-08 19:53:21 INFO  MainClass:218 - Seven Million  4  Vest
-2019-06-08 19:53:21 INFO  MainClass:218 - Six Million  3  West
-2019-06-08 19:53:21 INFO  MainClass:218 - Ten Million  3  Vest
-2019-06-08 19:53:21 INFO  MainClass:218 - Three Million  2  North
-2019-06-08 19:53:21 INFO  MainClass:218 - Two Million  4  Vest
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:270 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:53:21 INFO  MainClass:312 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-08 19:53:21 INFO  MainClass:312 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-08 19:53:21 INFO  MainClass:312 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-08 19:53:21 INFO  MainClass:180 - true
-2019-06-08 19:53:21 INFO  MainClass:321 - 10
-2019-06-08 19:53:21 INFO  MainClass:323 - Human
-2019-06-08 19:53:21 INFO  MainClass:324 - true
-2019-06-08 19:53:21 INFO  MainClass:325 - Optional.empty
-2019-06-08 19:53:21 INFO  MainClass:121 - java.lang.NullPointerException
-2019-06-08 19:53:21 INFO  MainClass:129 - Address(street=Sessame, number=69, city=Cluj-Napoca)
-2019-06-08 19:53:21 INFO  MainClass:136 - client.CheckinData@2957fcb0
-2019-06-08 19:54:37 ERROR MainClass:44 - La Ciortanu
-2019-06-08 19:54:37 INFO  MainClass:47 - PICTURESQUE
-2019-06-08 19:54:37 INFO  MainClass:49 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-08 19:54:37 INFO  MainClass:53 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-08 19:54:37 INFO  MainClass:54 - String value defined : outside the holiday season 
-2019-06-08 19:54:37 INFO  MainClass:55 - Int value defined : 12
-2019-06-08 19:54:37 INFO  MainClass:56 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-08 19:54:37 INFO  MainClass:53 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-08 19:54:37 INFO  MainClass:54 - String value defined : holiday season
-2019-06-08 19:54:37 INFO  MainClass:55 - Int value defined : 24
-2019-06-08 19:54:37 INFO  MainClass:56 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-08 19:54:37 INFO  MainClass:61 - Try to insert a hotel
-2019-06-08 19:54:37 INFO  MainClass:218 - Eight Million  7  South
-2019-06-08 19:54:37 INFO  MainClass:218 - Five Million  1  Vest
-2019-06-08 19:54:37 INFO  MainClass:218 - Four Million  3  Vest
-2019-06-08 19:54:37 INFO  MainClass:218 - Nine Million  8  Vest
-2019-06-08 19:54:37 INFO  MainClass:218 - One Million  3  Est
-2019-06-08 19:54:37 INFO  MainClass:218 - Seven Million  4  Vest
-2019-06-08 19:54:37 INFO  MainClass:218 - Six Million  3  West
-2019-06-08 19:54:37 INFO  MainClass:218 - Ten Million  3  Vest
-2019-06-08 19:54:37 INFO  MainClass:218 - Three Million  2  North
-2019-06-08 19:54:37 INFO  MainClass:218 - Two Million  4  Vest
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:270 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-08 19:54:37 INFO  MainClass:312 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-08 19:54:37 INFO  MainClass:312 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-08 19:54:37 INFO  MainClass:312 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-08 19:54:37 INFO  MainClass:180 - true
-2019-06-08 19:54:37 INFO  MainClass:321 - 10
-2019-06-08 19:54:37 INFO  MainClass:323 - Human
-2019-06-08 19:54:37 INFO  MainClass:324 - true
-2019-06-08 19:54:37 INFO  MainClass:325 - Optional.empty
-2019-06-08 19:54:37 INFO  MainClass:121 - java.lang.NullPointerException
-2019-06-08 19:54:37 INFO  MainClass:129 - Address(street=Sessame, number=69, city=Cluj-Napoca)
-2019-06-08 19:54:37 INFO  MainClass:136 - CheckinData(day=28, month=9, year=2019)
-2019-06-10 21:35:58 ERROR MainClass:45 - La Ciortanu
-2019-06-10 21:35:58 INFO  MainClass:48 - PICTURESQUE
-2019-06-10 21:35:58 INFO  MainClass:50 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-10 21:35:58 INFO  MainClass:54 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-10 21:35:58 INFO  MainClass:55 - String value defined : outside the holiday season 
-2019-06-10 21:35:58 INFO  MainClass:56 - Int value defined : 12
-2019-06-10 21:35:58 INFO  MainClass:57 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-10 21:35:58 INFO  MainClass:54 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-10 21:35:58 INFO  MainClass:55 - String value defined : holiday season
-2019-06-10 21:35:58 INFO  MainClass:56 - Int value defined : 24
-2019-06-10 21:35:58 INFO  MainClass:57 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-10 21:35:58 INFO  MainClass:62 - Try to insert a hotel
-2019-06-10 21:35:58 INFO  MainClass:221 - Eight Million  7  South
-2019-06-10 21:35:58 INFO  MainClass:221 - Five Million  1  Vest
-2019-06-10 21:35:58 INFO  MainClass:221 - Four Million  3  Vest
-2019-06-10 21:35:58 INFO  MainClass:221 - Nine Million  8  Vest
-2019-06-10 21:35:58 INFO  MainClass:221 - One Million  3  Est
-2019-06-10 21:35:58 INFO  MainClass:221 - Seven Million  4  Vest
-2019-06-10 21:35:58 INFO  MainClass:221 - Six Million  3  West
-2019-06-10 21:35:58 INFO  MainClass:221 - Ten Million  3  Vest
-2019-06-10 21:35:58 INFO  MainClass:221 - Three Million  2  North
-2019-06-10 21:35:58 INFO  MainClass:221 - Two Million  4  Vest
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:273 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:35:58 INFO  MainClass:315 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-10 21:35:58 INFO  MainClass:315 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-10 21:35:58 INFO  MainClass:315 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-10 21:35:58 INFO  MainClass:183 - true
-2019-06-10 21:35:58 INFO  MainClass:324 - 10
-2019-06-10 21:35:58 INFO  MainClass:326 - Human
-2019-06-10 21:35:58 INFO  MainClass:327 - true
-2019-06-10 21:35:58 INFO  MainClass:328 - Optional.empty
-2019-06-10 21:35:58 INFO  MainClass:122 - java.lang.NullPointerException
-2019-06-10 21:35:58 INFO  MainClass:130 - Address(street=Sessame, number=69, city=Cluj-Napoca)
-2019-06-10 21:50:36 ERROR MainClass:45 - La Ciortanu
-2019-06-10 21:50:36 INFO  MainClass:48 - PICTURESQUE
-2019-06-10 21:50:36 INFO  MainClass:50 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-10 21:50:36 INFO  MainClass:54 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-10 21:50:36 INFO  MainClass:55 - String value defined : outside the holiday season 
-2019-06-10 21:50:36 INFO  MainClass:56 - Int value defined : 12
-2019-06-10 21:50:36 INFO  MainClass:57 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-10 21:50:36 INFO  MainClass:54 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-10 21:50:36 INFO  MainClass:55 - String value defined : holiday season
-2019-06-10 21:50:36 INFO  MainClass:56 - Int value defined : 24
-2019-06-10 21:50:36 INFO  MainClass:57 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-10 21:50:36 INFO  MainClass:62 - Try to insert a hotel
-2019-06-10 21:50:36 INFO  MainClass:221 - Eight Million  7  South
-2019-06-10 21:50:36 INFO  MainClass:221 - Five Million  1  Vest
-2019-06-10 21:50:36 INFO  MainClass:221 - Four Million  3  Vest
-2019-06-10 21:50:36 INFO  MainClass:221 - Nine Million  8  Vest
-2019-06-10 21:50:36 INFO  MainClass:221 - One Million  3  Est
-2019-06-10 21:50:36 INFO  MainClass:221 - Seven Million  4  Vest
-2019-06-10 21:50:36 INFO  MainClass:221 - Six Million  3  West
-2019-06-10 21:50:36 INFO  MainClass:221 - Ten Million  3  Vest
-2019-06-10 21:50:36 INFO  MainClass:221 - Three Million  2  North
-2019-06-10 21:50:36 INFO  MainClass:221 - Two Million  4  Vest
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:36 INFO  MainClass:273 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:273 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:273 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:273 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:273 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:273 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:273 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:273 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:273 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:273 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-10 21:50:37 INFO  MainClass:315 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-10 21:50:37 INFO  MainClass:315 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-10 21:50:37 INFO  MainClass:315 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-10 21:50:37 INFO  MainClass:183 - true
-2019-06-10 21:50:37 INFO  MainClass:324 - 10
-2019-06-10 21:50:37 INFO  MainClass:326 - Human
-2019-06-10 21:50:37 INFO  MainClass:327 - true
-2019-06-10 21:50:37 INFO  MainClass:328 - Optional.empty
-2019-06-10 21:50:37 INFO  MainClass:122 - java.lang.NullPointerException
-2019-06-10 21:50:37 INFO  MainClass:130 - Address(street=Sessame, number=69, city=Cluj-Napoca)
-2019-06-11 20:38:53 ERROR MainClass:45 - La Ciortanu
-2019-06-11 20:38:53 INFO  MainClass:48 - PICTURESQUE
-2019-06-11 20:38:53 INFO  MainClass:50 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 20:38:53 INFO  MainClass:54 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 20:38:53 INFO  MainClass:55 - String value defined : outside the holiday season 
-2019-06-11 20:38:53 INFO  MainClass:56 - Int value defined : 12
-2019-06-11 20:38:53 INFO  MainClass:57 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 20:38:53 INFO  MainClass:54 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-11 20:38:53 INFO  MainClass:55 - String value defined : holiday season
-2019-06-11 20:38:53 INFO  MainClass:56 - Int value defined : 24
-2019-06-11 20:38:53 INFO  MainClass:57 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-11 20:38:53 INFO  MainClass:62 - Try to insert a hotel
-2019-06-11 20:38:53 INFO  MainClass:221 - Eight Million  7  South
-2019-06-11 20:38:53 INFO  MainClass:221 - Five Million  1  Vest
-2019-06-11 20:38:53 INFO  MainClass:221 - Four Million  3  Vest
-2019-06-11 20:38:53 INFO  MainClass:221 - Nine Million  8  Vest
-2019-06-11 20:38:53 INFO  MainClass:221 - One Million  3  Est
-2019-06-11 20:38:53 INFO  MainClass:221 - Seven Million  4  Vest
-2019-06-11 20:38:53 INFO  MainClass:221 - Six Million  3  West
-2019-06-11 20:38:53 INFO  MainClass:221 - Ten Million  3  Vest
-2019-06-11 20:38:53 INFO  MainClass:221 - Three Million  2  North
-2019-06-11 20:38:53 INFO  MainClass:221 - Two Million  4  Vest
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:273 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-11 20:38:53 INFO  MainClass:315 - 560 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-11 20:38:53 INFO  MainClass:315 - 561 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-11 20:38:53 INFO  MainClass:315 - 562 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-11 20:38:53 INFO  MainClass:183 - true
-2019-06-11 20:38:53 INFO  MainClass:324 - 10
-2019-06-11 20:38:53 INFO  MainClass:326 - Human
-2019-06-11 20:38:53 INFO  MainClass:327 - true
-2019-06-11 20:38:53 INFO  MainClass:328 - Optional.empty
-2019-06-11 20:38:53 INFO  MainClass:122 - java.lang.NullPointerException
-2019-06-11 20:38:53 INFO  MainClass:130 - Address(street=Sessame, number=69, city=Cluj-Napoca)
-2019-06-11 22:13:29 ERROR MainClass:47 - La Ciortanu
-2019-06-11 22:13:29 INFO  MainClass:50 - PICTURESQUE
-2019-06-11 22:13:29 INFO  MainClass:52 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 22:13:29 INFO  MainClass:56 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 22:13:29 INFO  MainClass:57 - String value defined : outside the holiday season 
-2019-06-11 22:13:29 INFO  MainClass:58 - Int value defined : 12
-2019-06-11 22:13:29 INFO  MainClass:59 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 22:13:29 INFO  MainClass:56 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-11 22:13:29 INFO  MainClass:57 - String value defined : holiday season
-2019-06-11 22:13:29 INFO  MainClass:58 - Int value defined : 24
-2019-06-11 22:13:29 INFO  MainClass:59 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-11 22:13:29 INFO  MainClass:64 - Try to insert a hotel
-2019-06-11 22:13:29 INFO  MainClass:223 - Eight Million  7  South
-2019-06-11 22:13:29 INFO  MainClass:223 - Five Million  1  Vest
-2019-06-11 22:13:29 INFO  MainClass:223 - Four Million  3  Vest
-2019-06-11 22:13:29 INFO  MainClass:223 - Nine Million  8  Vest
-2019-06-11 22:13:29 INFO  MainClass:223 - One Million  3  Est
-2019-06-11 22:13:29 INFO  MainClass:223 - Seven Million  4  Vest
-2019-06-11 22:13:29 INFO  MainClass:223 - Six Million  3  West
-2019-06-11 22:13:29 INFO  MainClass:223 - Ten Million  3  Vest
-2019-06-11 22:13:29 INFO  MainClass:223 - Three Million  2  North
-2019-06-11 22:13:29 INFO  MainClass:223 - Two Million  4  Vest
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:275 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:13:29 INFO  MainClass:319 - 561 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-11 22:13:29 INFO  MainClass:319 - 290 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-11 22:13:29 INFO  MainClass:319 - 542 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-11 22:13:29 INFO  MainClass:185 - true
-2019-06-11 22:13:29 INFO  MainClass:328 - 10
-2019-06-11 22:13:29 INFO  MainClass:330 - Human
-2019-06-11 22:13:29 INFO  MainClass:331 - true
-2019-06-11 22:13:29 INFO  MainClass:332 - Optional.empty
-2019-06-11 22:13:29 INFO  MainClass:124 - java.lang.NullPointerException
-2019-06-11 22:13:29 INFO  MainClass:132 - Address(street=Sessame, number=69, city=Cluj-Napoca)
-2019-06-11 22:14:57 ERROR MainClass:47 - La Ciortanu
-2019-06-11 22:14:57 INFO  MainClass:50 - PICTURESQUE
-2019-06-11 22:14:57 INFO  MainClass:52 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 22:14:57 INFO  MainClass:56 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 22:14:57 INFO  MainClass:57 - String value defined : outside the holiday season 
-2019-06-11 22:14:57 INFO  MainClass:58 - Int value defined : 12
-2019-06-11 22:14:57 INFO  MainClass:59 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 22:14:57 INFO  MainClass:56 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-11 22:14:57 INFO  MainClass:57 - String value defined : holiday season
-2019-06-11 22:14:57 INFO  MainClass:58 - Int value defined : 24
-2019-06-11 22:14:57 INFO  MainClass:59 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-11 22:14:57 INFO  MainClass:64 - Try to insert a hotel
-2019-06-11 22:14:57 INFO  MainClass:223 - Eight Million  7  South
-2019-06-11 22:14:57 INFO  MainClass:223 - Five Million  1  Vest
-2019-06-11 22:14:57 INFO  MainClass:223 - Four Million  3  Vest
-2019-06-11 22:14:57 INFO  MainClass:223 - Nine Million  8  Vest
-2019-06-11 22:14:57 INFO  MainClass:223 - One Million  3  Est
-2019-06-11 22:14:57 INFO  MainClass:223 - Seven Million  4  Vest
-2019-06-11 22:14:57 INFO  MainClass:223 - Six Million  3  West
-2019-06-11 22:14:57 INFO  MainClass:223 - Ten Million  3  Vest
-2019-06-11 22:14:57 INFO  MainClass:223 - Three Million  2  North
-2019-06-11 22:14:57 INFO  MainClass:223 - Two Million  4  Vest
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:275 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:14:57 INFO  MainClass:319 - 561 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-11 22:14:57 INFO  MainClass:319 - 290 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-11 22:14:57 INFO  MainClass:319 - 542 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-11 22:14:57 INFO  MainClass:185 - true
-2019-06-11 22:14:57 INFO  MainClass:328 - 10
-2019-06-11 22:14:57 INFO  MainClass:330 - Human
-2019-06-11 22:14:57 INFO  MainClass:331 - true
-2019-06-11 22:14:57 INFO  MainClass:332 - Optional.empty
-2019-06-11 22:14:57 INFO  MainClass:124 - java.lang.NullPointerException
-2019-06-11 22:14:57 INFO  MainClass:132 - Address(street=Sessame, number=69, city=Cluj-Napoca)
-2019-06-11 22:15:17 ERROR MainClass:47 - La Ciortanu
-2019-06-11 22:15:17 INFO  MainClass:50 - PICTURESQUE
-2019-06-11 22:15:17 INFO  MainClass:52 - OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 22:15:17 INFO  MainClass:56 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 22:15:17 INFO  MainClass:57 - String value defined : outside the holiday season 
-2019-06-11 22:15:17 INFO  MainClass:58 - Int value defined : 12
-2019-06-11 22:15:17 INFO  MainClass:59 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
-2019-06-11 22:15:17 INFO  MainClass:56 - Hotel OPEN_TIME_ON_HOLIDAYS
-2019-06-11 22:15:17 INFO  MainClass:57 - String value defined : holiday season
-2019-06-11 22:15:17 INFO  MainClass:58 - Int value defined : 24
-2019-06-11 22:15:17 INFO  MainClass:59 - Name to string : OPEN_TIME_ON_HOLIDAYS
-2019-06-11 22:15:17 INFO  MainClass:64 - Try to insert a hotel
-2019-06-11 22:15:17 INFO  MainClass:223 - Eight Million  7  South
-2019-06-11 22:15:17 INFO  MainClass:223 - Five Million  1  Vest
-2019-06-11 22:15:17 INFO  MainClass:223 - Four Million  3  Vest
-2019-06-11 22:15:17 INFO  MainClass:223 - Nine Million  8  Vest
-2019-06-11 22:15:17 INFO  MainClass:223 - One Million  3  Est
-2019-06-11 22:15:17 INFO  MainClass:223 - Seven Million  4  Vest
-2019-06-11 22:15:17 INFO  MainClass:223 - Six Million  3  West
-2019-06-11 22:15:17 INFO  MainClass:223 - Ten Million  3  Vest
-2019-06-11 22:15:17 INFO  MainClass:223 - Three Million  2  North
-2019-06-11 22:15:17 INFO  MainClass:223 - Two Million  4  Vest
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:275 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
-2019-06-11 22:15:17 INFO  MainClass:319 - 561 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
-2019-06-11 22:15:17 INFO  MainClass:319 - 290 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
-2019-06-11 22:15:17 INFO  MainClass:319 - 542 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
-2019-06-11 22:15:17 INFO  MainClass:185 - true
-2019-06-11 22:15:17 INFO  MainClass:328 - 10
-2019-06-11 22:15:17 INFO  MainClass:330 - Human
-2019-06-11 22:15:17 INFO  MainClass:331 - true
-2019-06-11 22:15:17 INFO  MainClass:332 - Optional.empty
-2019-06-11 22:15:17 INFO  MainClass:124 - java.lang.NullPointerException
-2019-06-11 22:15:17 INFO  MainClass:132 - Address(street=Sessame, number=69, city=Cluj-Napoca)
+2019-06-13 18:01:34 ERROR MainClass:47 - La Ciortanu
+2019-06-13 18:01:34 INFO  MainClass:50 - PICTURESQUE
+2019-06-13 18:01:34 INFO  MainClass:52 - OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-13 18:01:34 INFO  MainClass:56 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-13 18:01:34 INFO  MainClass:57 - String value defined : outside the holiday season 
+2019-06-13 18:01:34 INFO  MainClass:58 - Int value defined : 12
+2019-06-13 18:01:34 INFO  MainClass:59 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-13 18:01:34 INFO  MainClass:56 - Hotel OPEN_TIME_ON_HOLIDAYS
+2019-06-13 18:01:34 INFO  MainClass:57 - String value defined : holiday season
+2019-06-13 18:01:34 INFO  MainClass:58 - Int value defined : 24
+2019-06-13 18:01:34 INFO  MainClass:59 - Name to string : OPEN_TIME_ON_HOLIDAYS
+2019-06-13 18:01:34 INFO  MainClass:64 - Try to insert a hotel
+2019-06-13 18:01:34 INFO  MainClass:226 - Eight Million  7  South
+2019-06-13 18:01:34 INFO  MainClass:226 - Five Million  1  Vest
+2019-06-13 18:01:34 INFO  MainClass:226 - Four Million  3  Vest
+2019-06-13 18:01:34 INFO  MainClass:226 - Nine Million  8  Vest
+2019-06-13 18:01:34 INFO  MainClass:226 - One Million  3  Est
+2019-06-13 18:01:34 INFO  MainClass:226 - Seven Million  4  Vest
+2019-06-13 18:01:34 INFO  MainClass:226 - Six Million  3  West
+2019-06-13 18:01:34 INFO  MainClass:226 - Ten Million  3  Vest
+2019-06-13 18:01:34 INFO  MainClass:226 - Three Million  2  North
+2019-06-13 18:01:34 INFO  MainClass:226 - Two Million  4  Vest
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:278 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:01:34 INFO  MainClass:322 - 561 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
+2019-06-13 18:01:34 INFO  MainClass:322 - 290 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
+2019-06-13 18:01:34 INFO  MainClass:322 - 542 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
+2019-06-13 18:01:34 INFO  MainClass:188 - true
+2019-06-13 18:01:34 INFO  MainClass:331 - 10
+2019-06-13 18:01:34 INFO  MainClass:333 - Human
+2019-06-13 18:01:34 INFO  MainClass:334 - true
+2019-06-13 18:01:34 INFO  MainClass:335 - Optional.empty
+2019-06-13 18:01:34 INFO  MainClass:132 - Address(street=Sessame, number=69, city=Cluj-Napoca)
+2019-06-13 18:04:06 ERROR MainClass:47 - La Ciortanu
+2019-06-13 18:04:06 INFO  MainClass:50 - PICTURESQUE
+2019-06-13 18:04:06 INFO  MainClass:52 - OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-13 18:04:06 INFO  MainClass:56 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-13 18:04:06 INFO  MainClass:57 - String value defined : outside the holiday season 
+2019-06-13 18:04:06 INFO  MainClass:58 - Int value defined : 12
+2019-06-13 18:04:06 INFO  MainClass:59 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-13 18:04:06 INFO  MainClass:56 - Hotel OPEN_TIME_ON_HOLIDAYS
+2019-06-13 18:04:06 INFO  MainClass:57 - String value defined : holiday season
+2019-06-13 18:04:06 INFO  MainClass:58 - Int value defined : 24
+2019-06-13 18:04:06 INFO  MainClass:59 - Name to string : OPEN_TIME_ON_HOLIDAYS
+2019-06-13 18:04:06 INFO  MainClass:64 - Try to insert a hotel
+2019-06-13 18:04:06 INFO  MainClass:228 - Eight Million  7  South
+2019-06-13 18:04:06 INFO  MainClass:228 - Five Million  1  Vest
+2019-06-13 18:04:06 INFO  MainClass:228 - Four Million  3  Vest
+2019-06-13 18:04:06 INFO  MainClass:228 - Nine Million  8  Vest
+2019-06-13 18:04:06 INFO  MainClass:228 - One Million  3  Est
+2019-06-13 18:04:06 INFO  MainClass:228 - Seven Million  4  Vest
+2019-06-13 18:04:06 INFO  MainClass:228 - Six Million  3  West
+2019-06-13 18:04:06 INFO  MainClass:228 - Ten Million  3  Vest
+2019-06-13 18:04:06 INFO  MainClass:228 - Three Million  2  North
+2019-06-13 18:04:06 INFO  MainClass:228 - Two Million  4  Vest
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:280 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:04:06 INFO  MainClass:324 - 561 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
+2019-06-13 18:04:06 INFO  MainClass:324 - 290 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
+2019-06-13 18:04:06 INFO  MainClass:324 - 542 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
+2019-06-13 18:04:06 INFO  MainClass:190 - true
+2019-06-13 18:04:06 INFO  MainClass:333 - 10
+2019-06-13 18:04:06 INFO  MainClass:335 - Human
+2019-06-13 18:04:06 INFO  MainClass:336 - true
+2019-06-13 18:04:06 INFO  MainClass:337 - Optional.empty
+2019-06-13 18:04:06 INFO  MainClass:132 - Address(street=Sessame, number=69, city=Cluj-Napoca)
+2019-06-13 18:08:30 ERROR MainClass:47 - La Ciortanu
+2019-06-13 18:08:30 INFO  MainClass:50 - PICTURESQUE
+2019-06-13 18:08:30 INFO  MainClass:52 - OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-13 18:08:30 INFO  MainClass:56 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-13 18:08:30 INFO  MainClass:57 - String value defined : outside the holiday season 
+2019-06-13 18:08:30 INFO  MainClass:58 - Int value defined : 12
+2019-06-13 18:08:30 INFO  MainClass:59 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-13 18:08:30 INFO  MainClass:56 - Hotel OPEN_TIME_ON_HOLIDAYS
+2019-06-13 18:08:30 INFO  MainClass:57 - String value defined : holiday season
+2019-06-13 18:08:30 INFO  MainClass:58 - Int value defined : 24
+2019-06-13 18:08:30 INFO  MainClass:59 - Name to string : OPEN_TIME_ON_HOLIDAYS
+2019-06-13 18:08:30 INFO  MainClass:64 - Try to insert a hotel
+2019-06-13 18:08:30 INFO  MainClass:228 - Eight Million  7  South
+2019-06-13 18:08:30 INFO  MainClass:228 - Five Million  1  Vest
+2019-06-13 18:08:30 INFO  MainClass:228 - Four Million  3  Vest
+2019-06-13 18:08:30 INFO  MainClass:228 - Nine Million  8  Vest
+2019-06-13 18:08:30 INFO  MainClass:228 - One Million  3  Est
+2019-06-13 18:08:30 INFO  MainClass:228 - Seven Million  4  Vest
+2019-06-13 18:08:30 INFO  MainClass:228 - Six Million  3  West
+2019-06-13 18:08:30 INFO  MainClass:228 - Ten Million  3  Vest
+2019-06-13 18:08:30 INFO  MainClass:228 - Three Million  2  North
+2019-06-13 18:08:30 INFO  MainClass:228 - Two Million  4  Vest
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:280 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
+2019-06-13 18:08:30 INFO  MainClass:324 - 561 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
+2019-06-13 18:08:30 INFO  MainClass:324 - 290 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
+2019-06-13 18:08:30 INFO  MainClass:324 - 542 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
+2019-06-13 18:08:30 INFO  MainClass:190 - true
+2019-06-13 18:08:30 INFO  MainClass:333 - 10
+2019-06-13 18:08:30 INFO  MainClass:335 - Human
+2019-06-13 18:08:30 INFO  MainClass:336 - true
+2019-06-13 18:08:30 INFO  MainClass:337 - Optional.empty
+2019-06-13 18:08:30 INFO  MainClass:132 - Address(street=Sessame, number=69, city=Cluj-Napoca)

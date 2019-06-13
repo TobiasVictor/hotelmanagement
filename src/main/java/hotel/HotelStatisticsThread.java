@@ -1,8 +1,11 @@
 package hotel;
 import hotel.Hotel;
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class HotelStatisticsThread extends Thread {
     private Hotel hotel;
-    private int counter;
+
     @Override
     public void run() {
         synchronized (this) {
@@ -18,8 +21,9 @@ public class HotelStatisticsThread extends Thread {
             } catch (Exception e) {
                 System.out.println("Thread  interrupted.");
             }
+            int counter;
             counter = hotel.getQueue().size();
-            System.out.println("Number of clients" + counter);
+            System.out.println("Number of clients" + " " +counter);
 
         }
 

@@ -118,10 +118,10 @@ public class MainClass  {
         roomMap();
         functionStreamNumber1();
         optionalFunction();
-        List <? super Human> testsuper = new ArrayList<>();
-        testsuper.add(new Human());
-        testsuper.add(new Employee());
-        Log.info(testsuper);
+//        List <? super Human> testsuper = new ArrayList<>();
+  //      testsuper.add(new Human());
+    //    testsuper.add(new Employee());
+      //  Log.info(testsuper.toString());
         Address address5 = new Address.Builder("Sessame")
                 .nameNumber(69)
                 .showCity("Cluj-Napoca")
@@ -139,9 +139,14 @@ public class MainClass  {
         CheckinData checkinData2 = new CheckinData(day,month);
         CheckinData checkinData3 = new CheckinData(day,month);
 
-        ClientThread clientThread = new ClientThread();
+       ClientThread clientThread = new ClientThread(firstHotel,checkinData1,"11 PM");
         clientThread.start();
-
+        ClientThread clientThread1 = new ClientThread(firstHotel,checkinData2,"12 PM");
+        clientThread1.start();
+        ClientThread clientThread2 = new ClientThread(firstHotel,checkinData3,"12 PM");
+        clientThread2.start();
+        HotelStatisticsThread hotelStatisticsThread = new HotelStatisticsThread(firstHotel);
+        hotelStatisticsThread.start();
 
         ClientThread client1 = new ClientThread(firstHotel,checkinData1,"11:00 PM");
         ClientThread client2 = new ClientThread(firstHotel,checkinData1,"10:00 PM");

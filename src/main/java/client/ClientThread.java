@@ -11,9 +11,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ClientThread extends Thread {
-private Hotel hotel;
-private CheckinData checkinData;
-private String hour;
+    private Hotel hotel;
+    private CheckinData checkinData;
+    private String hour;
 
     @Override
     public void run() {
@@ -21,7 +21,7 @@ private String hour;
         if (checkinData.getDay()==0 || checkinData.getMonth()==0){
             try {
                 throw  new  IllegalAccessException("Re enter checkin data ");
-            } catch (IllegalAccessException e) {
+            } catch (IllegalAccessException | NullPointerException e) {
                 e.printStackTrace();
             }
 
