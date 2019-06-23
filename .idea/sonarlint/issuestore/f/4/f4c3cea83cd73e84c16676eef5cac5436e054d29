@@ -1,8 +1,8 @@
 
-“squid:S1319	"pThe type of the "list" object should be an interface such as "List" rather than the implementation "LinkedList".(Ï†ĞÍøÿÿÿÿ8áåš¼³-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ó½ÇÚ8áåš¼³-
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8áåš¼³-
 dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8áåš¼³-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8áåš¼³-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(Ñ°Äìùÿÿÿÿ8áåš¼³-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ó½ÇÚ8áåš¼³-
+“squid:S1319	"pThe type of the "list" object should be an interface such as "List" rather than the implementation "LinkedList".(Ï†ĞÍøÿÿÿÿ8áåš¼³-

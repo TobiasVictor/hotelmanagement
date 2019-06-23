@@ -16,12 +16,12 @@ public class ConcurrencyMain {
    //     Thread thread = new Thread(myRunnable);
   //     thread.start();
 
-        sequentialVsParallelStreams();
-   //     exercise1();
-  //     exercise2();
+     //   sequentialVsParallelStreams();
+      //  exercise1();
+  //   exercise2();
  //      singletonEx();
   //     joinExample();
- //      consumerProducer();
+      consumerProducer();
     }
 
     private static void sequentialVsParallelStreams() {

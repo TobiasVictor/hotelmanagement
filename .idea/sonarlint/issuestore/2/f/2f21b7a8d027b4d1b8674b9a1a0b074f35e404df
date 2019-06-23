@@ -1,21 +1,21 @@
 
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥ðà‡8ŠÆ³¼³-
-Zsquid:UnusedPrivateMethod;".Remove this unused private "exercise2" method.(ÈÕ®â8ŠÆ³¼³-
-fsquid:UnusedPrivateMethodJ"5Remove this unused private "consumerProducer" method.(«’ÕÈþÿÿÿÿ8ŠÆ³¼³-
-[
-squid:S106""9Replace this use of System.out or System.err by a logger.(áÏÚ“ûÿÿÿÿ8àØ ¼³-
-dsquid:S2142."FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8àØ ¼³-
-_squid:UnusedPrivateMethod4".Remove this unused private "exercise1" method.(öè‘Âúÿÿÿÿ8ŠÆ³¼³-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Äë¯‹8ŠÆ³¼³-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ä«Òþÿÿÿÿ8ó™›«·-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(‹ØïÎýÿÿÿÿ8àØ ¼³-
-Fsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8àØ ¼³-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Äë¯‹8ŠÆ³¼³-
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(áÏÚ“ûÿÿÿÿ8àØ ¼³-
 [
 squid:S106F"9Replace this use of System.out or System.err by a logger.(­ŠÏùÿÿÿÿ8àØ ¼³-
+Zsquid:UnusedPrivateMethod;".Remove this unused private "exercise2" method.(ÈÕ®â8ŠÆ³¼³-
+dsquid:S2142."FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8àØ ¼³-
 \squid:UnusedPrivateMethodC"0Remove this unused private "singletonEx" method.(‘ÅÇ’8ŠÆ³¼³-
-asquid:UnusedPrivateMethodT"0Remove this unused private "joinExample" method.(Üø€ãÿÿÿÿÿ8ŠÆ³¼³-
-hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(–Ôî8ŠÆ³¼³-
+_squid:UnusedPrivateMethod4".Remove this unused private "exercise1" method.(öè‘Âúÿÿÿÿ8ŠÆ³¼³-
 ®%squid:RedundantThrowsDeclarationCheck
 "wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(€ÅÖ8ŠÆ³¼³-
+qsquid:UnusedPrivateMethod"@Remove this unused private "sequentialVsParallelStreams" method.(«§çüüÿÿÿÿ8ó™›«·-
 [
 squid:S106)"9Replace this use of System.out or System.err by a logger.(ÅìÓÇþÿÿÿÿ8àØ ¼³-
+Fsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8àØ ¼³-
+asquid:UnusedPrivateMethodT"0Remove this unused private "joinExample" method.(Üø€ãÿÿÿÿÿ8ŠÆ³¼³-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥ðà‡8ŠÆ³¼³-

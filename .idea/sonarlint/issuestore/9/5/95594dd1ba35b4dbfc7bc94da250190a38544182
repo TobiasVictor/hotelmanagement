@@ -1,22 +1,25 @@
 
-Psquid:S1481“",Remove this unused "client4" local variable.(ÏìÖæùÿÿÿÿ8¥îÀÀ³-
-Psquid:S1481’",Remove this unused "client3" local variable.(©ä™¡úÿÿÿÿ8¥îÀÀ³-
-Fsquid:S1148V"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ç°ëş¬-
+isquid:CommentedOutCodeLinez"<This block of commented-out lines of code should be removed.(–ÒØö8İ…ÎÙ¶-
+lsquid:S1192÷"MDefine a constant instead of duplicating this literal "20 mai 1990" 20 times.(öØËà8áªÅô°-
+\
+squid:S106ò"9Replace this use of System.out or System.err by a logger.(ìÖà‰øÿÿÿÿ8±íô“´-
 8squid:S1220""Move this file to a named package.8¦ª×ï¦-
-lsquid:S1192ä"MDefine a constant instead of duplicating this literal "22 mai 1990" 20 times.(öØËà8áªÅô°-
-Psquid:S1481‘",Remove this unused "client2" local variable.(“Ü©üøÿÿÿÿ8¥îÀÀ³-
-jsquid:CommentedOutCodeLineÔ"<This block of commented-out lines of code should be removed.(Ç­È¹8±íô“´-
-Fsquid:S1148_"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ç°ëş¬-
+Msquid:S2093O"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ç°ëş¬-
+Osquid:S1481³"0Remove this unused "checkinData" local variable.( ˆä©8İ…ÎÙ¶-
+jsquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(´¡àÉ8±íô“´-
+Nsquid:S1481#"+Remove this unused "second" local variable.(¹åÔ÷ûÿÿÿÿ8’¯ßô­-
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¦Ñºæùÿÿÿÿ8¼ÏåÚ·-
+Fsquid:S1148b"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ç°ëş¬-
+Fsquid:S1148Y"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ç°ëş¬-
 \
-squid:S106®"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8±íô“´-
-\
-squid:S106ß"9Replace this use of System.out or System.err by a logger.(ìÖà‰øÿÿÿÿ8±íô“´-
-osquid:S1192"LDefine a constant instead of duplicating this literal "Cluj-Napoca" 6 times.(æËÅŞıÿÿÿÿ8ğ–—ú°-
-lsquid:S1192ä"MDefine a constant instead of duplicating this literal "20 mai 1990" 20 times.(öØËà8áªÅô°-
-Msquid:S2093L"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ç°ëş¬-
-jsquid:CommentedOutCodeLineà"<This block of commented-out lines of code should be removed.(´¡àÉ8±íô“´-
-Nsquid:S1481 "+Remove this unused "second" local variable.(¹åÔ÷ûÿÿÿÿ8’¯ßô­-
-`squid:CallToDeprecatedMethod ",Remove this use of "Room"; it is deprecated.(¹åÔ÷ûÿÿÿÿ8’¯ßô­-
-Psquid:S1481",Remove this unused "client1" local variable.(Úú‘·úÿÿÿÿ8«Ö—Á³-
-Fsquid:S1148i"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ç°ëş¬-
-Hsquid:S1481"*Remove this unused "human" local variable.(æµ“Ä8¦ŠÄ™©-
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8±íô“´-
+osquid:S1192"LDefine a constant instead of duplicating this literal "Cluj-Napoca" 6 times.(æËÅŞıÿÿÿÿ8ğ–—ú°-
+jsquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(Ç­È¹8±íô“´-
+`squid:CallToDeprecatedMethod#",Remove this use of "Room"; it is deprecated.(¹åÔ÷ûÿÿÿÿ8’¯ßô­-
+lsquid:S1192÷"MDefine a constant instead of duplicating this literal "22 mai 1990" 20 times.(öØËà8áªÅô°-
+esquid:S2142§"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¼ÏåÚ·-
+Fsquid:S1148l"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ç°ëş¬-
+Gsquid:S1148¨"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼ÏåÚ·-
+^squid:S1854³"?Remove this useless assignment to local variable "checkinData".( ˆä©8İ…ÎÙ¶-
+Gsquid:S1604 "(Make this anonymous inner class a lambda(ÉãÃ®8¼ÏåÚ·-
+Hsquid:S1481"*Remove this unused "human" local variable.(æµ“Ä8¦ŠÄ™©-

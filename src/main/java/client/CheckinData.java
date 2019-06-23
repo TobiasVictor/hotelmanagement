@@ -1,20 +1,28 @@
 package client;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
 
 
 @Getter
-@Setter
-@AllArgsConstructor
-@ToString
 public class CheckinData {
-    private int day;
-    private int month;
-    private final int year=2019;
+private LocalTime localTime= LocalTime.now().truncatedTo(ChronoUnit.SECONDS);
+private LocalDate localDate = LocalDate.now();
+
+public String getTimeAndDate(){
+    return " Client arrived at : " + localTime + "on " + localDate + "CheckIn Id: "+ Rng.checkInNumGenerator();
+
+}
+    public LocalDate getDate() {
+        return localDate;
+    }
+
+    public LocalTime getTime() {
+        return localTime;
+    }
 
 }
 

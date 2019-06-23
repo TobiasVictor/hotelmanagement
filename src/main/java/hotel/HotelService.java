@@ -1,13 +1,43 @@
 package hotel;
 
-import java.util.List;
+import client.CheckinData;
+import client.Client;
+import client.Rng;
+
+import java.util.*;
 
 public class HotelService {
 
     private HotelRepository hotelRepository;
+    private final Map<Hotel, List<Client>> checkinList = new HashMap<>();
 
     public HotelService(HotelRepository hotelRepository) {
         this.hotelRepository = hotelRepository;
+        new Thread(() ->{
+            int counter=10;
+            while(counter>=0){
+                synchronized (checkinList){
+
+                    if(checkinList.size()>0){
+                        counter=3;
+
+                    } else{
+                        counter--;
+                    }
+                    for(Map.Entry<Hotel,List<Client>> entry: checkinList.entrySet()){
+                        System.out.println("statistics for hotel" + entry.getKey());
+                        System.out.println("Persons for statistics" + Arrays.toString(entry.getValue().toArray()));
+                    }
+
+                }
+                try{
+                    Thread.sleep(5000);
+                }catch (InterruptedException e){
+                    break;
+                }
+            }
+        }).start();
+
 
     }
 
@@ -19,6 +49,9 @@ public class HotelService {
      */
 
     public String validateAndAddHotel(Hotel hotel) throws IllegalAccessException {
+
+
+
         String name = hotel.getName();
         int rating = hotel.getRating();
 
@@ -46,5 +79,24 @@ public class HotelService {
 
     public List<Hotel> getHotels() {
         return hotelRepository.listHotels();
+    }
+
+    public void checkIn(Client client, Hotel hotel){
+                synchronized (checkinList){
+                        try {
+                            Thread.sleep(Rng.randomSlpTime()*500);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        System.out.println("New client: " + client + "at:" + new CheckinData().getTimeAndDate());
+                    if(!checkinList.containsKey(hotel)){
+                        checkinList.put(hotel, new LinkedList<>());
+                    }
+                    checkinList.get(hotel).add(client);
+                }
+
+    }
+    public Hotel getRandomHotel() {
+        return getHotels().get(Rng.randomHotel(0,3));
     }
 }

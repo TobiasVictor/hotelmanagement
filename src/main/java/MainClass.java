@@ -1,6 +1,4 @@
-import client.CheckinData;
-import client.Client;
-import client.ClientThread;
+import client.*;
 import employee.Employee;
 import enums_hotel.HotelOpenTime;
 import enums_hotel.HotelType;
@@ -130,40 +128,25 @@ public class MainClass  {
 
 
         Log.info(address5);
-        Random randomDay = new Random();
-        Random randomMonth = new Random();
-        Integer day=1+randomDay.nextInt(31);
-        Integer month=1+randomMonth.nextInt(12);
+        for(Client client : ClientService.getClients()){
+            Log.info("Client code: " + client.getClientCode());
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Thread.sleep(Rng.randomSlpTime());
+                        hotelService.checkIn(client, hotelService.getRandomHotel());
+                        Log.info("client " + client.getClientCode()+  "has checked at : " + new CheckinData().getTime() + "on " + new CheckinData().getDate());
+                    } catch (InterruptedException e){
+                        e.printStackTrace();
+                    }
+                }
+            }).start();
 
-        CheckinData checkinData1 = new CheckinData(day,month);
-        CheckinData checkinData2 = new CheckinData(day,month);
-        CheckinData checkinData3 = new CheckinData(day,month);
-
-       ClientThread clientThread = new ClientThread(firstHotel,checkinData1,"11 PM");
-        clientThread.start();
-        ClientThread clientThread1 = new ClientThread(firstHotel,checkinData2,"12 PM");
-        clientThread1.start();
-        ClientThread clientThread2 = new ClientThread(firstHotel,checkinData3,"12 PM");
-        clientThread2.start();
-        HotelStatisticsThread hotelStatisticsThread = new HotelStatisticsThread(firstHotel);
-        hotelStatisticsThread.start();
-
-        ClientThread client1 = new ClientThread(firstHotel,checkinData1,"11:00 PM");
-        ClientThread client2 = new ClientThread(firstHotel,checkinData1,"10:00 PM");
-        ClientThread client3 = new ClientThread(firstHotel,checkinData2,"8:00 PM");
-        ClientThread client4 = new ClientThread(firstHotel,checkinData3,"11:00 PM");
-
-
-
-
-
-
-
-
-
-
+        }
 
     }
+
 
     private  static void functionStreamNumber1(){
 

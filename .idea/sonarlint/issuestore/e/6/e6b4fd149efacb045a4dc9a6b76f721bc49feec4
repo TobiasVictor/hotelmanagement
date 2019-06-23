@@ -1,11 +1,9 @@
 
-asquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(¬Æ„°8ïÃ–˜´-
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(€ï¹‚øÿÿÿÿ8Ôì·”´-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ôì·”´-
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ˆ„–ê8›å”˜´-
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ü¬ÌŠ8‰†ÜÚ·-
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(»¯Œ8Š›˜´-
-ysquid:S1450"VRemove the "counter" field and declare it as a local variable in the relevant methods.(¶®¡êşÿÿÿÿ8›å”˜´-
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ôì·”´-
-asquid:S1155	">Use isEmpty() to check whether the collection is empty or not.(Âáàƒøÿÿÿÿ8Š›˜´-
-jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(€ï¹‚øÿÿÿÿ8Ôì·”´-
-„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(Î¾¡Öøÿÿÿÿ8ÅÅ§”´-
+squid:S106"9Replace this use of System.out or System.err by a logger.(»¯Œ8Š›˜´-
+\squid:S1155
+">Use isEmpty() to check whether the collection is empty or not.(¾ÍÌ8‰†ÜÚ·-

@@ -3,7 +3,7 @@ package client;
 import java.util.List;
 
 public class ClientService {
-    private ClientRepository clientRepository;
+    private   static  ClientRepository clientRepository;
 
     public ClientService(ClientRepository clientRepository) {
         this.clientRepository = clientRepository;
@@ -27,7 +27,7 @@ public class ClientService {
         clientRepository.remove(client);
     }
 
-    public List<Client> getClients() {
+    public static List<Client> getClients() {
         return clientRepository.listClients();
     }
 }
