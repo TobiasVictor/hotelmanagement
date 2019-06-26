@@ -20,6 +20,7 @@ public class ClientService {
         if (responseFromRepo) {
             return "Client added with succes ";
         }
+        clientRepository.add(client);
         return "Revise client parameters";
     }
 
@@ -27,7 +28,7 @@ public class ClientService {
         clientRepository.remove(client);
     }
 
-    public static List<Client> getClients() {
+    public  List<Client> getClients() {
         return clientRepository.listClients();
     }
 }

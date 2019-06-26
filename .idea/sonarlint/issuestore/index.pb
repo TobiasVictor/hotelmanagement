@@ -97,14 +97,10 @@ W
 'src/main/java/concurrency/MyThread.java,9\2\929d4b9c300d22ee596f0824773e5b729715ce43
 Y
 )src/main/java/concurrency/Connection.java,7\9\79a5bcf2f5f535e29244a4db649abeff6fcc1d9e
-^
-.src/main/java/hotel/HotelStatisticsThread.java,e\6\e6b4fd149efacb045a4dc9a6b76f721bc49feec4
 W
 'src/main/java/concurrency/Producer.java,e\f\efe2bb5bec88c4839857b50fb40a0d8062bb474f
 ^
 .src/main/java/concurrency/ConcurrencyMain.java,2\f\2f21b7a8d027b4d1b8674b9a1a0b074f35e404df
-V
-&src/main/java/client/ClientThread.java,9\f\9ff2f0ad6ae5b562a1cc9c76ceb6f46abcadc3dd
 U
 %src/main/java/client/CheckinData.java,7\7\773643dc2b7effa2e0879b4c9722881e26428be5
 [

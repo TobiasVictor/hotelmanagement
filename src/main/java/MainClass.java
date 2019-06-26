@@ -27,6 +27,25 @@ public class MainClass  {
         final Hotel secondHotel = new Hotel(2, "La Tinu", secondAddress, secondRoom, HotelType.LUXURY, HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,121);
         Human human = new Human("Jihn", "Rin", 444,199032341);
 
+        Client client1 = new Client("Gheorghe","Poiana",50,199102321,756);
+        Client client2 = new Client("Anghel","Dumbrava",80,199932321,753);
+        Client client3 = new Client("Vasile","Fermecat",20,199942321,754);
+        Client client4 = new Client("Promoroc","Frumosu",20,199502321,753);
+        Client client5 = new Client("Ioanea","Chelu",23,199902221,752);
+
+
+        Address Address2 = new Address("Izlazului", 56, "Cluj-Napoca");
+        Address thirdAddress = new Address("Plopului", 65, "Cluj-Napoca");
+        Address Address1 = new Address("Carnatului", 562, "Cluj-Napoca");
+        Room roomno1 = new Room("First", 5, "North");
+        Room roomno2 = new Room("Sec", 3, "Est");
+        Room roomno3 = new Room("Third", 2, "South");
+
+        Hotel hotel1 = new Hotel(5,"Palazzio",Address1,roomno1,HotelType.PICTURESQUE,HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,561);
+        Hotel hotel2 = new Hotel(3,"Palazzio1",Address2,roomno2,HotelType.PICTURESQUE,HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,542);
+        Hotel hotel3 = new Hotel(7,"Palazzio3",thirdAddress,roomno3,HotelType.PICTURESQUE,HotelOpenTime.OPEN_TIME_ON_HOLIDAYS,290);
+
+
 
         // deprecated constructor
         Room second = new Room("Atlantic", "Est");
@@ -128,12 +147,32 @@ public class MainClass  {
 
 
         Log.info(address5);
-        for(Client client : ClientService.getClients()){
+
+
+        ClientRepository clientRepository = new ClientRepository();
+        ClientService clientService = new ClientService(clientRepository);
+        clientService.validateAndAddClient(client1);
+        clientService.validateAndAddClient(client2);
+        clientService.validateAndAddClient(client3);
+        clientService.validateAndAddClient(client4);
+        clientService.validateAndAddClient(client5);
+        hotelService.validateAndAddHotel(hotel1);
+        hotelService.validateAndAddHotel(hotel2);
+        hotelService.validateAndAddHotel(hotel3);
+        hotelService.validateAndAddHotel(firstHotel);
+        hotelService.validateAndAddHotel(secondHotel);
+
+
+
+
+
+        for(Client client : clientService.getClients()){
             Log.info("Client code: " + client.getClientCode());
             new Thread(new Runnable() {
                 @Override
                 public void run() {
                     try {
+                        // schimba lista din care ia 
                         Thread.sleep(Rng.randomSlpTime());
                         hotelService.checkIn(client, hotelService.getRandomHotel());
                         Log.info("client " + client.getClientCode()+  "has checked at : " + new CheckinData().getTime() + "on " + new CheckinData().getDate());

@@ -1,3 +1,6 @@
     .idea/
     target/
-    *.iml
+    *.iml/
+    .concurrency/
+    .dbteststuff/
+    .prima.html
