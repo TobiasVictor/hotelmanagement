@@ -165,6 +165,7 @@ public class MainClass  {
 
 
 
+/*
 
         for(Client client : clientService.getClients()){
             Log.info("Client code: " + client.getClientCode());
@@ -183,6 +184,7 @@ public class MainClass  {
             }).start();
 
         }
+*/
 
     }
 

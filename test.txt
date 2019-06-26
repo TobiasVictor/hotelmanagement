@@ -2108,3 +2108,53 @@
 2019-06-26 03:16:19 INFO  MainClass:178 - client 753has checked at : 03:16:19on 2019-06-26
 2019-06-26 03:16:19 INFO  MainClass:178 - client 754has checked at : 03:16:19on 2019-06-26
 2019-06-26 03:16:22 INFO  MainClass:178 - client 756has checked at : 03:16:22on 2019-06-26
+2019-06-26 03:34:40 ERROR MainClass:64 - La Ciortanu
+2019-06-26 03:34:40 INFO  MainClass:67 - PICTURESQUE
+2019-06-26 03:34:40 INFO  MainClass:69 - OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-26 03:34:40 INFO  MainClass:73 - Hotel OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-26 03:34:40 INFO  MainClass:74 - String value defined : outside the holiday season 
+2019-06-26 03:34:40 INFO  MainClass:75 - Int value defined : 12
+2019-06-26 03:34:40 INFO  MainClass:76 - Name to string : OPEN_TIME_OUTSIDE_HOLIDAYS
+2019-06-26 03:34:40 INFO  MainClass:73 - Hotel OPEN_TIME_ON_HOLIDAYS
+2019-06-26 03:34:40 INFO  MainClass:74 - String value defined : holiday season
+2019-06-26 03:34:40 INFO  MainClass:75 - Int value defined : 24
+2019-06-26 03:34:40 INFO  MainClass:76 - Name to string : OPEN_TIME_ON_HOLIDAYS
+2019-06-26 03:34:40 INFO  MainClass:81 - Try to insert a hotel
+2019-06-26 03:34:40 INFO  MainClass:252 - Eight Million  7  South
+2019-06-26 03:34:40 INFO  MainClass:252 - Five Million  1  Vest
+2019-06-26 03:34:40 INFO  MainClass:252 - Four Million  3  Vest
+2019-06-26 03:34:40 INFO  MainClass:252 - Nine Million  8  Vest
+2019-06-26 03:34:40 INFO  MainClass:252 - One Million  3  Est
+2019-06-26 03:34:40 INFO  MainClass:252 - Seven Million  4  Vest
+2019-06-26 03:34:40 INFO  MainClass:252 - Six Million  3  West
+2019-06-26 03:34:40 INFO  MainClass:252 - Ten Million  3  Vest
+2019-06-26 03:34:40 INFO  MainClass:252 - Three Million  2  North
+2019-06-26 03:34:40 INFO  MainClass:252 - Two Million  4  Vest
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1970321234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990321284 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990351234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990371234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990321254 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990321224 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990342123 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1960321234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990321294 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1996321234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990321264 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1950321234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990321231 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1940321234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1990321274 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:304 - gigi tinu 22 1930321234 55 20 mai 1990 22 mai 1990
+2019-06-26 03:34:40 INFO  MainClass:348 - 561 : [Room(roomName=First, roomCapacity=5, roomOrientation=North)]
+2019-06-26 03:34:40 INFO  MainClass:348 - 290 : [Room(roomName=Third, roomCapacity=2, roomOrientation=South)]
+2019-06-26 03:34:40 INFO  MainClass:348 - 542 : [Room(roomName=Sec, roomCapacity=3, roomOrientation=Est)]
+2019-06-26 03:34:40 INFO  MainClass:214 - true
+2019-06-26 03:34:40 INFO  MainClass:357 - 10
+2019-06-26 03:34:40 INFO  MainClass:359 - Human
+2019-06-26 03:34:40 INFO  MainClass:360 - true
+2019-06-26 03:34:40 INFO  MainClass:361 - Optional.empty
+2019-06-26 03:34:40 INFO  MainClass:149 - Address(street=Sessame, number=69, city=Cluj-Napoca)

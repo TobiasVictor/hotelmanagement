@@ -105,3 +105,10 @@ U
 %src/main/java/client/CheckinData.java,7\7\773643dc2b7effa2e0879b4c9722881e26428be5
 [
 +src/main/java/hotel/HotelNameException.java,7\a\7a0f0bb6289d1fcfdad081ffb4fd14cf531d6dd7
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+W
+'src/main/java/dbteststuff/JDBCMain.java,3\2\3228ee0333149b41686e285e815d0ea07f4a8965
+U
+%src/main/java/dbteststuff/Hotels.java,a\8\a818ea932b1227ad6860260679cefb7154585db7

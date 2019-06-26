@@ -1,0 +1,17 @@
+
+V
+squid:S106;"9Replace this use of System.out or System.err by a logger.(„öŞœ8‘ì¡¹-
+[
+squid:S106U"9Replace this use of System.out or System.err by a logger.(ŞÆ­Ûşÿÿÿÿ8¼Ò½Ÿ¹-
+Fsquid:S1148e"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ò½Ÿ¹-
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Fsquid:S1148J"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ò½Ÿ¹-
+Fsquid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ò½Ÿ¹-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(úĞÍÌ8ğÔú›¹-
+nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(Ö¦®ôüÿÿÿÿ8û£¬œ¹-
+V
+squid:S106H"9Replace this use of System.out or System.err by a logger.(ÊãšÔ8¼Ò½Ÿ¹-
+Xsquid:UselessImportCheck"(Remove this unused import 'hotel.Hotel'.(Î¾¡Öøÿÿÿÿ8¯’ƒŸ¹-
+esquid:S2095>"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(Ê‰ö„8Ü™¡Ÿ¹-
+dsquid:S2259"HA "NullPointerException" could be thrown; "connection" is nullable here.(šã§¬úÿÿÿÿ
+jsquid:S20959"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ù¤¡¹-
